@@ -1,0 +1,38 @@
+03-Jun-25 23:41:14 - INFO - Log file log\03-Jun-25_23-41-14.log created
+03-Jun-25 23:41:14 - INFO - output/03-Jun-25.csv borrado
+03-Jun-25 23:41:14 - INFO - output/03-Jun-25.csv Creado
+03-Jun-25 23:41:15 - INFO - LOGUEANDOME A LINKEDIN COMO badag85383@jeanssi.com...
+03-Jun-25 23:41:25 - INFO - Login completado.
+03-Jun-25 23:41:25 - INFO - === Iniciando búsqueda para: Data Analyst ===
+03-Jun-25 23:41:46 - WARNING - Timeout esperando los resultados.
+03-Jun-25 23:41:46 - WARNING - No se encontraron enlaces de trabajos en esta página.
+03-Jun-25 23:41:51 - INFO - === Búsqueda completada para: Data Analyst ===
+03-Jun-25 23:42:01 - INFO - === Iniciando búsqueda para: Data Scientist ===
+03-Jun-25 23:42:21 - WARNING - Timeout esperando los resultados.
+03-Jun-25 23:42:21 - WARNING - No se encontraron enlaces de trabajos en esta página.
+03-Jun-25 23:42:26 - INFO - === Búsqueda completada para: Data Scientist ===
+03-Jun-25 23:42:36 - INFO - === Iniciando búsqueda para: Data Engineer ===
+03-Jun-25 23:42:52 - ERROR - Error en página 0 para Data Engineer: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.68)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c784fea5+79173]
+	GetHandleVerifier [0x0x7ff6c784ff00+79264]
+	(No symbol) [0x0x7ff6c7609e5a]
+	(No symbol) [0x0x7ff6c75e20f1]
+	(No symbol) [0x0x7ff6c769017e]
+	(No symbol) [0x0x7ff6c76b0922]
+	(No symbol) [0x0x7ff6c7688743]
+	(No symbol) [0x0x7ff6c76514c1]
+	(No symbol) [0x0x7ff6c7652253]
+	GetHandleVerifier [0x0x7ff6c7b1a2dd+3004797]
+	GetHandleVerifier [0x0x7ff6c7b1472d+2981325]
+	GetHandleVerifier [0x0x7ff6c7b33380+3107360]
+	GetHandleVerifier [0x0x7ff6c786aa2e+188622]
+	GetHandleVerifier [0x0x7ff6c78722bf+219487]
+	GetHandleVerifier [0x0x7ff6c7858df4+115860]
+	GetHandleVerifier [0x0x7ff6c7858fa9+116297]
+	GetHandleVerifier [0x0x7ff6c783f558+11256]
+	BaseThreadInitThunk [0x0x7ffd586ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd59c3c5dc+44]
+
