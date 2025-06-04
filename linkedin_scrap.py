@@ -13,6 +13,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
+load_dotenv()
 
 
 #-------------------------------------------------------------------------------------# crea el archivo log 
