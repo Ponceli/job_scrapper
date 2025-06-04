@@ -1,0 +1,35 @@
+03-Jun-25 23:17:09 - INFO - Log file log\03-Jun-25_23-17-09.log created
+03-Jun-25 23:17:09 - INFO - output/03-Jun-25.csv borrado
+03-Jun-25 23:17:09 - INFO - output/03-Jun-25.csv Creado
+03-Jun-25 23:17:11 - INFO - LOGUEANDOME A LINKEDIN COMO badag85383@jeanssi.com...
+03-Jun-25 23:17:15 - ERROR - No se encontró el formulario de login.
+03-Jun-25 23:17:15 - ERROR - Message: unknown error: cannot determine loading status
+from target frame detached
+  (Session info: chrome=137.0.7151.68)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c784fea5+79173]
+	GetHandleVerifier [0x0x7ff6c784ff00+79264]
+	(No symbol) [0x0x7ff6c7609c8c]
+	(No symbol) [0x0x7ff6c75f6f6b]
+	(No symbol) [0x0x7ff6c75f4b9f]
+	(No symbol) [0x0x7ff6c75f55ff]
+	(No symbol) [0x0x7ff6c7604b3d]
+	(No symbol) [0x0x7ff6c761a671]
+	(No symbol) [0x0x7ff6c76217ba]
+	(No symbol) [0x0x7ff6c75f5d9d]
+	(No symbol) [0x0x7ff6c7619e61]
+	(No symbol) [0x0x7ff6c76b1384]
+	(No symbol) [0x0x7ff6c7688743]
+	(No symbol) [0x0x7ff6c76514c1]
+	(No symbol) [0x0x7ff6c7652253]
+	GetHandleVerifier [0x0x7ff6c7b1a2dd+3004797]
+	GetHandleVerifier [0x0x7ff6c7b1472d+2981325]
+	GetHandleVerifier [0x0x7ff6c7b33380+3107360]
+	GetHandleVerifier [0x0x7ff6c786aa2e+188622]
+	GetHandleVerifier [0x0x7ff6c78722bf+219487]
+	GetHandleVerifier [0x0x7ff6c7858df4+115860]
+	GetHandleVerifier [0x0x7ff6c7858fa9+116297]
+	GetHandleVerifier [0x0x7ff6c783f558+11256]
+	BaseThreadInitThunk [0x0x7ffd586ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd59c3c5dc+44]
+

@@ -1,0 +1,57 @@
+03-Jun-25 23:24:58 - INFO - Log file log\03-Jun-25_23-24-58.log created
+03-Jun-25 23:24:58 - INFO - output/03-Jun-25.csv borrado
+03-Jun-25 23:24:58 - INFO - output/03-Jun-25.csv Creado
+03-Jun-25 23:24:59 - INFO - LOGUEANDOME A LINKEDIN COMO badag85383@jeanssi.com...
+03-Jun-25 23:25:08 - INFO - Login completado.
+03-Jun-25 23:25:29 - WARNING - Timeout esperando los resultados.
+03-Jun-25 23:25:36 - ERROR - Error en data%20scientist - Message: target frame detached
+  (failed to check if window was closed: disconnected: unable to send message to renderer)
+  (Session info: chrome=137.0.7151.68)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c784fea5+79173]
+	GetHandleVerifier [0x0x7ff6c784ff00+79264]
+	(No symbol) [0x0x7ff6c7609c8c]
+	(No symbol) [0x0x7ff6c75f6f6b]
+	(No symbol) [0x0x7ff6c75f5e2e]
+	(No symbol) [0x0x7ff6c761ac44]
+	(No symbol) [0x0x7ff6c76903c5]
+	(No symbol) [0x0x7ff6c76b0922]
+	(No symbol) [0x0x7ff6c7688743]
+	(No symbol) [0x0x7ff6c76514c1]
+	(No symbol) [0x0x7ff6c7652253]
+	GetHandleVerifier [0x0x7ff6c7b1a2dd+3004797]
+	GetHandleVerifier [0x0x7ff6c7b1472d+2981325]
+	GetHandleVerifier [0x0x7ff6c7b33380+3107360]
+	GetHandleVerifier [0x0x7ff6c786aa2e+188622]
+	GetHandleVerifier [0x0x7ff6c78722bf+219487]
+	GetHandleVerifier [0x0x7ff6c7858df4+115860]
+	GetHandleVerifier [0x0x7ff6c7858fa9+116297]
+	GetHandleVerifier [0x0x7ff6c783f558+11256]
+	BaseThreadInitThunk [0x0x7ffd586ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd59c3c5dc+44]
+
+03-Jun-25 23:25:36 - ERROR - Error en data%20engineer - Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.68)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c784fea5+79173]
+	GetHandleVerifier [0x0x7ff6c784ff00+79264]
+	(No symbol) [0x0x7ff6c7609e5a]
+	(No symbol) [0x0x7ff6c75f5c25]
+	(No symbol) [0x0x7ff6c761ac44]
+	(No symbol) [0x0x7ff6c76903c5]
+	(No symbol) [0x0x7ff6c76b0922]
+	(No symbol) [0x0x7ff6c7688743]
+	(No symbol) [0x0x7ff6c76514c1]
+	(No symbol) [0x0x7ff6c7652253]
+	GetHandleVerifier [0x0x7ff6c7b1a2dd+3004797]
+	GetHandleVerifier [0x0x7ff6c7b1472d+2981325]
+	GetHandleVerifier [0x0x7ff6c7b33380+3107360]
+	GetHandleVerifier [0x0x7ff6c786aa2e+188622]
+	GetHandleVerifier [0x0x7ff6c78722bf+219487]
+	GetHandleVerifier [0x0x7ff6c7858df4+115860]
+	GetHandleVerifier [0x0x7ff6c7858fa9+116297]
+	GetHandleVerifier [0x0x7ff6c783f558+11256]
+	BaseThreadInitThunk [0x0x7ffd586ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd59c3c5dc+44]
+

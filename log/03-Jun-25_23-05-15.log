@@ -1,0 +1,82 @@
+03-Jun-25 23:05:15 - INFO - Log file log\03-Jun-25_23-05-15.log created
+03-Jun-25 23:05:15 - INFO - output/03-Jun-25.csv borrado
+03-Jun-25 23:05:15 - INFO - output/03-Jun-25.csv Creado
+03-Jun-25 23:05:18 - INFO - LOGUEANDOME A LINKEDIN COMO badag85383@jeanssi.com...
+03-Jun-25 23:05:32 - INFO - Login completado.
+03-Jun-25 23:06:04 - ERROR - Error on data%20analyst - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class, 'results-context-header__job-count')]"}
+  (Session info: chrome=137.0.7151.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c784fea5+79173]
+	GetHandleVerifier [0x0x7ff6c784ff00+79264]
+	(No symbol) [0x0x7ff6c7609e5a]
+	(No symbol) [0x0x7ff6c7660586]
+	(No symbol) [0x0x7ff6c766083c]
+	(No symbol) [0x0x7ff6c76b4247]
+	(No symbol) [0x0x7ff6c76889af]
+	(No symbol) [0x0x7ff6c76b100d]
+	(No symbol) [0x0x7ff6c7688743]
+	(No symbol) [0x0x7ff6c76514c1]
+	(No symbol) [0x0x7ff6c7652253]
+	GetHandleVerifier [0x0x7ff6c7b1a2dd+3004797]
+	GetHandleVerifier [0x0x7ff6c7b1472d+2981325]
+	GetHandleVerifier [0x0x7ff6c7b33380+3107360]
+	GetHandleVerifier [0x0x7ff6c786aa2e+188622]
+	GetHandleVerifier [0x0x7ff6c78722bf+219487]
+	GetHandleVerifier [0x0x7ff6c7858df4+115860]
+	GetHandleVerifier [0x0x7ff6c7858fa9+116297]
+	GetHandleVerifier [0x0x7ff6c783f558+11256]
+	BaseThreadInitThunk [0x0x7ffd586ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd59c3c5dc+44]
+
+03-Jun-25 23:06:29 - ERROR - Error on data%20scientist - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class, 'results-context-header__job-count')]"}
+  (Session info: chrome=137.0.7151.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c784fea5+79173]
+	GetHandleVerifier [0x0x7ff6c784ff00+79264]
+	(No symbol) [0x0x7ff6c7609e5a]
+	(No symbol) [0x0x7ff6c7660586]
+	(No symbol) [0x0x7ff6c766083c]
+	(No symbol) [0x0x7ff6c76b4247]
+	(No symbol) [0x0x7ff6c76889af]
+	(No symbol) [0x0x7ff6c76b100d]
+	(No symbol) [0x0x7ff6c7688743]
+	(No symbol) [0x0x7ff6c76514c1]
+	(No symbol) [0x0x7ff6c7652253]
+	GetHandleVerifier [0x0x7ff6c7b1a2dd+3004797]
+	GetHandleVerifier [0x0x7ff6c7b1472d+2981325]
+	GetHandleVerifier [0x0x7ff6c7b33380+3107360]
+	GetHandleVerifier [0x0x7ff6c786aa2e+188622]
+	GetHandleVerifier [0x0x7ff6c78722bf+219487]
+	GetHandleVerifier [0x0x7ff6c7858df4+115860]
+	GetHandleVerifier [0x0x7ff6c7858fa9+116297]
+	GetHandleVerifier [0x0x7ff6c783f558+11256]
+	BaseThreadInitThunk [0x0x7ffd586ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd59c3c5dc+44]
+
+03-Jun-25 23:06:55 - ERROR - Error on data%20engineer - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class, 'results-context-header__job-count')]"}
+  (Session info: chrome=137.0.7151.68); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6c784fea5+79173]
+	GetHandleVerifier [0x0x7ff6c784ff00+79264]
+	(No symbol) [0x0x7ff6c7609e5a]
+	(No symbol) [0x0x7ff6c7660586]
+	(No symbol) [0x0x7ff6c766083c]
+	(No symbol) [0x0x7ff6c76b4247]
+	(No symbol) [0x0x7ff6c76889af]
+	(No symbol) [0x0x7ff6c76b100d]
+	(No symbol) [0x0x7ff6c7688743]
+	(No symbol) [0x0x7ff6c76514c1]
+	(No symbol) [0x0x7ff6c7652253]
+	GetHandleVerifier [0x0x7ff6c7b1a2dd+3004797]
+	GetHandleVerifier [0x0x7ff6c7b1472d+2981325]
+	GetHandleVerifier [0x0x7ff6c7b33380+3107360]
+	GetHandleVerifier [0x0x7ff6c786aa2e+188622]
+	GetHandleVerifier [0x0x7ff6c78722bf+219487]
+	GetHandleVerifier [0x0x7ff6c7858df4+115860]
+	GetHandleVerifier [0x0x7ff6c7858fa9+116297]
+	GetHandleVerifier [0x0x7ff6c783f558+11256]
+	BaseThreadInitThunk [0x0x7ffd586ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd59c3c5dc+44]
+
+03-Jun-25 23:06:56 - INFO - LOGUEANDOME A LINKEDIN COMO badag85383@jeanssi.com...
+03-Jun-25 23:07:07 - INFO - Login completado.
