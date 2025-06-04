@@ -50,12 +50,14 @@ def login(logging):
 
     chrome_options = Options()
     chrome_options.add_argument("--window-size=1920,1080")
-    # Opcional: ejecutar en modo headless para mayor velocidad
-    # chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    chrome_options.add_experimental_option('useAutomationExtension', False)
 
     driver_path = "C:\\chromedriver-win64\\chromedriver.exe"
     service = Service(driver_path)
     wd = webdriver.Chrome(service=service, options=chrome_options)
+    wd.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
     logging.info(f"LOGUEANDOME A LINKEDIN COMO {LINKEDIN_USERNAME}...")
     wd.get(url_login)
@@ -75,163 +77,243 @@ def login(logging):
     WebDriverWait(wd, 10).until(EC.presence_of_element_located((By.ID, "global-nav-search")))
     return wd
 
-def extract_job_details(wd, job_element, search_keyword, search_count, logging):
-    """Extrae los detalles de un trabajo específico"""
+def get_job_links(wd, search_location, search_keyword, search_remote, search_posted, search_page, logging):
+    """Obtiene todos los enlaces de trabajos de una página sin hacer clic en ellos"""
+    url_search = f"https://www.linkedin.com/jobs/search/?f_TPR={search_posted}&f_WRA={search_remote}&geoId=92000000&keywords={search_keyword}&location={search_location}&start={search_page}"
+    wd.get(url_search)
+    
     try:
-        # Hacer scroll al elemento para asegurarse de que es visible
-        wd.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", job_element)
-        time.sleep(1)
+        WebDriverWait(wd, 15).until(EC.presence_of_element_located((By.CLASS_NAME, "jobs-search-results-list")))
+    except TimeoutException:
+        logging.warning("Timeout esperando los resultados.")
+        return [], 0
+
+    # Obtener el conteo de resultados
+    try:
+        search_count_element = wd.find_element(By.CLASS_NAME, "results-context-header__job-count")
+        search_count_text = search_count_element.text
+        search_count = int(search_count_text.replace(',', '').strip())
+    except:
+        logging.warning("No se pudo obtener el conteo de resultados.")
+        search_count = 0
+
+    logging.info(f"Obteniendo enlaces de página {round(search_page/25) + 1} para {search_keyword} ({search_count} resultados totales)...")
+
+    # Hacer scroll para cargar todos los trabajos
+    last_height = wd.execute_script("return document.body.scrollHeight")
+    while True:
+        wd.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(2)
+        new_height = wd.execute_script("return document.body.scrollHeight")
+        if new_height == last_height:
+            break
+        last_height = new_height
+
+    # Obtener todos los enlaces de trabajos
+    job_links = []
+    try:
+        # Diferentes selectores para obtener los enlaces
+        job_cards = wd.find_elements(By.CSS_SELECTOR, "div.job-search-card, div.jobs-search-results__list-item")
         
-        # Hacer clic en el trabajo
-        wd.execute_script("arguments[0].click();", job_element)
+        for card in job_cards:
+            try:
+                # Buscar el enlace dentro de la tarjeta
+                link_element = card.find_element(By.CSS_SELECTOR, "a[href*='/jobs/view/']")
+                job_url = link_element.get_attribute('href')
+                if job_url and '/jobs/view/' in job_url:
+                    job_id = job_url.split('/jobs/view/')[1].split('/')[0].split('?')[0]
+                    if job_id.isdigit():
+                        job_links.append(job_url)
+            except:
+                continue
         
-        # Esperar a que se cargue el panel de detalles
-        WebDriverWait(wd, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, ".jobs-unified-top-card__job-title, .job-details-jobs-unified-top-card__job-title"))
-        )
+        # Si no encuentra enlaces con el método anterior, intentar otro selector
+        if not job_links:
+            links = wd.find_elements(By.CSS_SELECTOR, "a[href*='/jobs/view/']")
+            for link in links:
+                job_url = link.get_attribute('href')
+                if job_url and '/jobs/view/' in job_url:
+                    job_id = job_url.split('/jobs/view/')[1].split('/')[0].split('?')[0]
+                    if job_id.isdigit():
+                        job_links.append(job_url)
         
-        time.sleep(2)  # Tiempo adicional para asegurar que todo se cargue
+        # Eliminar duplicados manteniendo el orden
+        seen = set()
+        unique_links = []
+        for link in job_links:
+            if link not in seen:
+                seen.add(link)
+                unique_links.append(link)
+        
+        logging.info(f"Encontrados {len(unique_links)} enlaces únicos de trabajos")
+        return unique_links, search_count
         
     except Exception as e:
-        logging.warning(f"Error al hacer clic en el trabajo: {e}")
+        logging.error(f"Error obteniendo enlaces de trabajos: {e}")
+        return [], search_count
+
+def scrape_job_details(wd, job_url, search_keyword, search_count, logging):
+    """Scrape los detalles de un trabajo específico accediendo directamente a su URL"""
+    try:
+        logging.info(f"Accediendo a: {job_url}")
+        wd.get(job_url)
+        
+        # Esperar a que se cargue la página del trabajo
+        WebDriverWait(wd, 15).until(
+            EC.any_of(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "h1.top-card-layout__title")),
+                EC.presence_of_element_located((By.CSS_SELECTOR, "h1.topcard__title")),
+                EC.presence_of_element_located((By.CSS_SELECTOR, ".jobs-unified-top-card__job-title"))
+            )
+        )
+        
+        time.sleep(3)  # Esperar a que se cargue completamente
+        
+    except Exception as e:
+        logging.warning(f"Error cargando la página del trabajo: {e}")
         return None
 
-    # Extraer job_id de la URL o del elemento
+    # Extraer job_id de la URL
     try:
-        job_id = wd.current_url.split("/view/")[1].split("/")[0] if "/view/" in wd.current_url else ''
-        if not job_id:
-            # Intentar obtener del atributo del elemento
-            job_urn = job_element.get_attribute("data-occludable-entity-urn")
-            job_id = job_urn.split(":")[-1] if job_urn else ''
+        job_id = job_url.split('/jobs/view/')[1].split('/')[0].split('?')[0]
     except:
         job_id = ''
 
     # Extraer título del trabajo
-    try:
-        job_title_selectors = [
-            "h2.jobs-unified-top-card__job-title a",
-            "h2.jobs-unified-top-card__job-title",
-            ".job-details-jobs-unified-top-card__job-title a",
-            ".job-details-jobs-unified-top-card__job-title"
-        ]
-        job_title = ''
-        for selector in job_title_selectors:
-            try:
-                job_title = wd.find_element(By.CSS_SELECTOR, selector).text.strip()
-                if job_title:
-                    break
-            except:
-                continue
-    except:
-        job_title = ''
+    job_title = ''
+    title_selectors = [
+        "h1.top-card-layout__title",
+        "h1.topcard__title", 
+        ".jobs-unified-top-card__job-title a",
+        ".jobs-unified-top-card__job-title",
+        "h1"
+    ]
+    
+    for selector in title_selectors:
+        try:
+            element = wd.find_element(By.CSS_SELECTOR, selector)
+            job_title = element.text.strip()
+            if job_title:
+                break
+        except:
+            continue
 
-    # Extraer información primaria (empresa, ubicación, remoto)
-    try:
-        primary_selectors = [
-            ".jobs-unified-top-card__primary-description span",
-            ".job-details-jobs-unified-top-card__primary-description span"
-        ]
-        company = location = remote = ''
-        for selector in primary_selectors:
-            try:
-                primary_info = wd.find_elements(By.CSS_SELECTOR, selector)
-                if primary_info:
-                    company = primary_info[0].text.strip() if len(primary_info) > 0 else ''
-                    location = primary_info[1].text.strip() if len(primary_info) > 1 else ''
-                    remote = primary_info[2].text.strip() if len(primary_info) > 2 else ''
-                    break
-            except:
-                continue
-    except:
-        company = location = remote = ''
+    # Extraer información de la empresa
+    company = location = remote = ''
+    company_selectors = [
+        ".top-card-layout__card .topcard__org-name-link",
+        ".topcard__org-name-link",
+        ".topcard__flavor--company",
+        ".jobs-unified-top-card__company-name a",
+        ".jobs-unified-top-card__company-name"
+    ]
+    
+    for selector in company_selectors:
+        try:
+            element = wd.find_element(By.CSS_SELECTOR, selector)
+            company = element.text.strip()
+            if company:
+                break
+        except:
+            continue
 
-    # Extraer insights (tiempo de publicación, aplicantes)
-    try:
-        insight_selectors = [
-            ".jobs-unified-top-card__job-insight span",
-            ".job-details-jobs-unified-top-card__job-insight span"
-        ]
-        update_time = applicants = ''
-        for selector in insight_selectors:
-            try:
-                insights = wd.find_elements(By.CSS_SELECTOR, selector)
-                if insights:
-                    update_time = insights[0].text.strip() if len(insights) > 0 else ''
-                    applicants_text = insights[1].text.strip() if len(insights) > 1 else ''
-                    applicants = applicants_text.split(' ')[0] if applicants_text else ''
-                    break
-            except:
-                continue
-    except:
-        update_time = applicants = ''
+    # Extraer ubicación
+    location_selectors = [
+        ".top-card-layout__card .topcard__flavor--location",
+        ".topcard__flavor--location",
+        ".jobs-unified-top-card__bullet"
+    ]
+    
+    for selector in location_selectors:
+        try:
+            element = wd.find_element(By.CSS_SELECTOR, selector)
+            location = element.text.strip()
+            if location:
+                break
+        except:
+            continue
 
-    # Extraer información del trabajo (tiempo, posición, salario)
-    job_time = job_position = job_pay = ''
+    # Extraer información adicional (tiempo de publicación, aplicantes, etc.)
+    update_time = applicants = job_time = job_position = job_pay = ''
+    
     try:
-        job_info_selectors = [
-            ".jobs-unified-top-card__job-insight-text-container",
-            ".job-details-jobs-unified-top-card__job-insight-text-container"
+        # Buscar información de tiempo de publicación
+        time_selectors = [
+            ".posted-time-ago__text",
+            ".topcard__flavor--metadata",
+            ".jobs-unified-top-card__subtitle-secondary-grouping"
         ]
-        for selector in job_info_selectors:
+        
+        for selector in time_selectors:
             try:
-                job_info_element = wd.find_element(By.CSS_SELECTOR, selector)
-                job_info_text = job_info_element.text.strip()
-                if job_info_text:
-                    job_info = job_info_text.split(' · ')
-                    if len(job_info) == 1:
-                        job_time = job_info[0]
-                    elif "$" in job_info[0]:
-                        job_pay, job_time = job_info[0], job_info[1]
-                        job_position = job_info[2] if len(job_info) > 2 else ''
-                    else:
-                        job_time = job_info[0]
-                        job_position = job_info[1] if len(job_info) > 1 else ''
+                element = wd.find_element(By.CSS_SELECTOR, selector)
+                text = element.text.strip()
+                if 'ago' in text.lower() or 'hace' in text.lower():
+                    update_time = text
                     break
             except:
                 continue
     except:
         pass
 
-    # Extraer información de la empresa
+    # Extraer número de aplicantes
+    try:
+        applicant_selectors = [
+            ".num-applicants__caption",
+            "[data-test-id='job-applicant-count']"
+        ]
+        
+        for selector in applicant_selectors:
+            try:
+                element = wd.find_element(By.CSS_SELECTOR, selector)
+                text = element.text.strip()
+                if 'applicant' in text.lower():
+                    applicants = text.split()[0]
+                    break
+            except:
+                continue
+    except:
+        pass
+
+    # Extraer información de la empresa (tamaño, industria)
+    company_size = company_industry = ''
     try:
         company_info_selectors = [
-            ".jobs-unified-top-card__company-info",
-            ".job-details-jobs-unified-top-card__company-info"
+            ".top-card-layout__card .topcard__flavor--company-info",
+            ".topcard__flavor--company-info"
         ]
-        company_size = company_industry = ''
+        
         for selector in company_info_selectors:
             try:
-                company_info_element = wd.find_element(By.CSS_SELECTOR, selector)
-                company_info = company_info_element.text.strip().split(' · ')
-                if company_info:
-                    company_size = company_info[0] if len(company_info) > 0 else ''
-                    company_industry = company_info[1] if len(company_info) > 1 else ''
+                elements = wd.find_elements(By.CSS_SELECTOR, selector)
+                if elements:
+                    company_size = elements[0].text.strip() if len(elements) > 0 else ''
+                    company_industry = elements[1].text.strip() if len(elements) > 1 else ''
                     break
             except:
                 continue
     except:
-        company_size = company_industry = ''
+        pass
 
     # Extraer descripción del trabajo
-    try:
-        job_details_selectors = [
-            "div.jobs-description__content div.jobs-box__html-content",
-            ".jobs-description-content__text",
-            ".jobs-box__html-content"
-        ]
-        job_details = ''
-        for selector in job_details_selectors:
-            try:
-                job_details_element = wd.find_element(By.CSS_SELECTOR, selector)
-                job_details = job_details_element.text.replace("\n", " ").strip()
-                if job_details:
-                    break
-            except:
-                continue
-    except:
-        job_details = ''
+    job_details = ''
+    description_selectors = [
+        ".show-more-less-html__markup",
+        ".description__text",
+        ".jobs-description-content__text",
+        ".jobs-box__html-content"
+    ]
+    
+    for selector in description_selectors:
+        try:
+            element = wd.find_element(By.CSS_SELECTOR, selector)
+            job_details = element.text.replace('\n', ' ').strip()
+            if job_details:
+                break
+        except:
+            continue
 
-    # Crear registro del trabajo
+    # Crear el registro del trabajo
     date_time = datetime.datetime.now().strftime("%d%b%Y-%H:%M:%S")
     search_keyword_clean = search_keyword.replace("%20", " ")
     
@@ -241,81 +323,45 @@ def extract_job_details(wd, job_element, search_keyword, search_count, logging):
         company_size, company_industry, job_details
     ]
     
-    logging.info(f"Trabajo extraído: {job_title} en {company}")
+    logging.info(f"Trabajo extraído exitosamente: {job_title} en {company}")
     return job_data
 
 def page_search(wd, search_location, search_keyword, search_remote, search_posted, search_page, search_count, file, logging):
-    url_search = f"https://www.linkedin.com/jobs/search/?f_TPR={search_posted}&f_WRA={search_remote}&geoId=92000000&keywords={search_keyword}&location={search_location}&start={search_page}"
-    wd.get(url_search)
-
-    try:
-        WebDriverWait(wd, 15).until(EC.presence_of_element_located((By.CLASS_NAME, "jobs-search-results-list")))
-    except TimeoutException:
-        logging.warning("Timeout esperando los resultados.")
-        return search_page + 25, search_count, url_search
-
-    # Obtener el conteo de resultados
-    try:
-        search_count_element = wd.find_element(By.CLASS_NAME, "results-context-header__job-count")
-        search_count_text = search_count_element.text
-        search_count = int(search_count_text.replace(',', '').strip())
-    except:
-        logging.warning("No se pudo obtener el conteo de resultados.")
-        return search_page + 25, search_count, url_search
-
-    logging.info(f"Cargando página {round(search_page/25) + 1} de {round(search_count/25)} para {search_keyword} ({search_count} resultados)...")
-
-    # Obtener lista de trabajos
-    job_selectors = [
-        "li[data-occludable-entity-urn]",
-        ".jobs-search-results__list-item",
-        ".job-search-card"
-    ]
+    """Función principal que obtiene enlaces y luego scrape cada trabajo individualmente"""
     
-    jobs = []
-    for selector in job_selectors:
+    # Paso 1: Obtener todos los enlaces de trabajos de la página
+    job_links, search_count = get_job_links(wd, search_location, search_keyword, search_remote, search_posted, search_page, logging)
+    
+    if not job_links:
+        logging.warning("No se encontraron enlaces de trabajos en esta página.")
+        return search_page + 25, search_count, ""
+    
+    # Paso 2: Scrape cada trabajo individualmente
+    scraped_jobs = []
+    for i, job_url in enumerate(job_links):
         try:
-            jobs = wd.find_elements(By.CSS_SELECTOR, selector)
-            if jobs:
-                logging.info(f"Encontrados {len(jobs)} trabajos usando selector: {selector}")
-                break
-        except:
-            continue
-    
-    if not jobs:
-        logging.warning("No se encontraron trabajos en esta página.")
-        return search_page + 25, search_count, url_search
-
-    list_jobs = []
-    
-    # Iterar por cada trabajo individualmente
-    for index, job in enumerate(jobs):
-        try:
-            logging.info(f"Procesando trabajo {index + 1} de {len(jobs)}")
+            logging.info(f"Procesando trabajo {i+1}/{len(job_links)}")
             
-            # Extraer detalles del trabajo
-            job_data = extract_job_details(wd, job, search_keyword, search_count, logging)
+            job_data = scrape_job_details(wd, job_url, search_keyword, search_count, logging)
             
             if job_data:
-                list_jobs.append(job_data)
+                scraped_jobs.append(job_data)
+                
+                # Guardar después de cada trabajo para no perder datos
+                with open(file, "a", encoding="utf-8", newline='') as f:
+                    w = csv.writer(f)
+                    w.writerow(job_data)
             
-            # Pequeña pausa entre trabajos para evitar ser detectado
-            time.sleep(1)
+            # Pausa entre trabajos para evitar ser detectado
+            time.sleep(2)
             
         except Exception as e:
-            logging.warning(f"Error procesando trabajo {index + 1}: {e}")
+            logging.error(f"Error procesando trabajo {i+1}: {e}")
             continue
-
-    # Guardar los trabajos en el archivo CSV
-    if list_jobs:
-        with open(file, "a", encoding="utf-8", newline='') as f:
-            w = csv.writer(f)
-            w.writerows(list_jobs)
-        logging.info(f"Página {round(search_page/25) + 1} completada. {len(list_jobs)} trabajos guardados.")
-    else:
-        logging.warning("No se pudieron extraer trabajos de esta página.")
-
-    return search_page + 25, search_count, url_search
+    
+    logging.info(f"Página {round(search_page/25) + 1} completada. {len(scraped_jobs)} trabajos extraídos de {len(job_links)} enlaces.")
+    
+    return search_page + 25, search_count, ""
 
 # MAIN SCRIPT
 if __name__ == "__main__":
@@ -324,6 +370,7 @@ if __name__ == "__main__":
     file = f"output/{date}.csv"
     create_file(file, logging)
     
+    wd = None
     try:
         wd = login(logging)
         
@@ -333,34 +380,36 @@ if __name__ == "__main__":
         search_posted = "r86400"  # Últimas 24 horas
 
         for search_keyword in search_keywords:
-            logging.info(f"Iniciando búsqueda para: {search_keyword}")
+            logging.info(f"=== Iniciando búsqueda para: {search_keyword} ===")
             search_keyword_encoded = search_keyword.lower().replace(" ", "%20")
             search_page = 0
             search_count = 1
-            max_pages = 10  # Limitar a 10 páginas para evitar problemas
+            max_pages = 5  # Limitar a 5 páginas para pruebas
             
             while search_page < search_count and search_page < max_pages * 25:
                 try:
-                    search_page, search_count, url_search = page_search(
+                    search_page, search_count, _ = page_search(
                         wd, search_location, search_keyword_encoded, search_remote, 
                         search_posted, search_page, search_count, file, logging
                     )
                     
                     # Pausa entre páginas
-                    time.sleep(3)
+                    time.sleep(5)
                     
                 except Exception as e:
                     logging.error(f"Error en página {search_page} para {search_keyword}: {e}")
                     search_page += 25
-                    time.sleep(5)  # Pausa más larga si hay error
+                    time.sleep(10)
             
-            logging.info(f"Búsqueda completada para: {search_keyword}")
+            logging.info(f"=== Búsqueda completada para: {search_keyword} ===")
+            time.sleep(10)  # Pausa entre keywords
             
     except Exception as e:
         logging.error(f"Error general en el script: {e}")
     finally:
-        try:
-            wd.quit()
-            logging.info("Driver cerrado correctamente.")
-        except:
-            pass
+        if wd:
+            try:
+                wd.quit()
+                logging.info("Driver cerrado correctamente.")
+            except:
+                pass
