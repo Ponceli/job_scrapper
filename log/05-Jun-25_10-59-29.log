@@ -1,0 +1,36 @@
+05-Jun-25 10:59:29 - INFO - Log file log\05-Jun-25_10-59-29.log created
+05-Jun-25 10:59:29 - INFO - output/05-Jun-25.csv no existe
+05-Jun-25 10:59:29 - INFO - output/05-Jun-25.csv Creado
+05-Jun-25 10:59:31 - INFO - LOGUEANDOME A LINKEDIN COMO kideve4885@cigidea.com...
+05-Jun-25 10:59:42 - INFO - Login completado.
+05-Jun-25 10:59:42 - INFO - === Iniciando búsqueda para: Data Analyst ===
+05-Jun-25 10:59:42 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=data%20analyst&location=Worldwide&start=0
+05-Jun-25 11:00:24 - ERROR - ¡ERROR CRÍTICO! Timeout esperando la lista de resultados de la búsqueda. La página no cargó la lista principal o no es visible.
+05-Jun-25 11:00:24 - INFO - === Búsqueda completada para: Data Analyst. Total scrapeados: 0 ===
+05-Jun-25 11:00:34 - INFO - === Iniciando búsqueda para: Data Scientist ===
+05-Jun-25 11:00:34 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=data%20scientist&location=Worldwide&start=0
+05-Jun-25 11:00:42 - ERROR - Error general en el script principal: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6f6f6fea5+79173]
+	GetHandleVerifier [0x0x7ff6f6f6ff00+79264]
+	(No symbol) [0x0x7ff6f6d29e5a]
+	(No symbol) [0x0x7ff6f6d020f1]
+	(No symbol) [0x0x7ff6f6db017e]
+	(No symbol) [0x0x7ff6f6dd0922]
+	(No symbol) [0x0x7ff6f6da8743]
+	(No symbol) [0x0x7ff6f6d714c1]
+	(No symbol) [0x0x7ff6f6d72253]
+	GetHandleVerifier [0x0x7ff6f723a2dd+3004797]
+	GetHandleVerifier [0x0x7ff6f723472d+2981325]
+	GetHandleVerifier [0x0x7ff6f7253380+3107360]
+	GetHandleVerifier [0x0x7ff6f6f8aa2e+188622]
+	GetHandleVerifier [0x0x7ff6f6f922bf+219487]
+	GetHandleVerifier [0x0x7ff6f6f78df4+115860]
+	GetHandleVerifier [0x0x7ff6f6f78fa9+116297]
+	GetHandleVerifier [0x0x7ff6f6f5f558+11256]
+	BaseThreadInitThunk [0x0x7ff85342257d+29]
+	RtlUserThreadStart [0x0x7ff85494af08+40]
+
+05-Jun-25 11:00:44 - INFO - Driver cerrado correctamente.

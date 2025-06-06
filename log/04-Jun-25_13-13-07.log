@@ -1,0 +1,18 @@
+04-Jun-25 13:13:07 - INFO - Log file log\04-Jun-25_13-13-07.log created
+04-Jun-25 13:13:07 - INFO - output/04-Jun-25.csv borrado
+04-Jun-25 13:13:07 - INFO - output/04-Jun-25.csv Creado
+04-Jun-25 13:13:09 - INFO - LOGUEANDOME A LINKEDIN COMO badag85383@jeanssi.com...
+04-Jun-25 13:13:18 - INFO - Login completado.
+04-Jun-25 13:13:18 - INFO - === Iniciando búsqueda para: Data Analyst ===
+04-Jun-25 13:13:38 - WARNING - Timeout esperando los resultados de la búsqueda.
+04-Jun-25 13:13:38 - WARNING - No se encontraron tarjetas de trabajos en esta página. Pasando a la siguiente página de resultados.
+04-Jun-25 13:13:43 - INFO - === Búsqueda completada para: Data Analyst ===
+04-Jun-25 13:13:53 - INFO - === Iniciando búsqueda para: Data Scientist ===
+04-Jun-25 13:14:11 - WARNING - Timeout esperando los resultados de la búsqueda.
+04-Jun-25 13:14:11 - WARNING - No se encontraron tarjetas de trabajos en esta página. Pasando a la siguiente página de resultados.
+04-Jun-25 13:14:16 - INFO - === Búsqueda completada para: Data Scientist ===
+04-Jun-25 13:14:26 - INFO - === Iniciando búsqueda para: Data Engineer ===
+04-Jun-25 13:14:46 - WARNING - Timeout esperando los resultados de la búsqueda.
+04-Jun-25 13:14:46 - WARNING - No se encontraron tarjetas de trabajos en esta página. Pasando a la siguiente página de resultados.
+04-Jun-25 13:14:51 - INFO - === Búsqueda completada para: Data Engineer ===
+04-Jun-25 13:15:03 - INFO - Driver cerrado correctamente.

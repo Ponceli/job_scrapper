@@ -1,0 +1,14 @@
+05-Jun-25 11:41:50 - INFO - Log file log\05-Jun-25_11-41-50.log created
+05-Jun-25 11:41:50 - INFO - output/05-Jun-25.csv borrado
+05-Jun-25 11:41:50 - INFO - output/05-Jun-25.csv Creado
+05-Jun-25 11:41:51 - INFO - LOGUEANDOME A LINKEDIN COMO kideve4885@cigidea.com...
+05-Jun-25 11:42:13 - INFO - Login completado.
+05-Jun-25 11:42:13 - INFO - Navegación exitosa a la página principal después del login.
+05-Jun-25 11:42:25 - INFO - === Iniciando búsqueda para: Data Analyst ===
+05-Jun-25 11:42:25 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=data%20analyst&location=Worldwide&start=0
+05-Jun-25 11:43:29 - ERROR - ¡ERROR CRÍTICO! Timeout esperando la lista de resultados de la búsqueda. La página no cargó la lista principal o no es visible.
+05-Jun-25 11:43:30 - INFO - === Búsqueda completada para: Data Analyst. Total scrapeados: 0 ===
+05-Jun-25 11:43:50 - INFO - Driver cerrado correctamente al final de la iteración de la palabra clave.
+05-Jun-25 11:43:52 - INFO - LOGUEANDOME A LINKEDIN COMO kideve4885@cigidea.com...
+05-Jun-25 11:44:10 - INFO - Login completado.
+05-Jun-25 11:44:10 - INFO - Navegación exitosa a la página principal después del login.

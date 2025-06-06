@@ -1,4 +1,5 @@
 {
+  "id": "", //"ID de la publicación",
   "input": "", //"LINKEDIN/INDEED/..",
   "empresa": "", //"Nombre de la empresa",
   "titulo": "", //"el nombre de la publicación",

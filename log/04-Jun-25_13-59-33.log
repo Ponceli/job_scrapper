@@ -1,0 +1,11 @@
+04-Jun-25 13:59:33 - INFO - Log file log\04-Jun-25_13-59-33.log created
+04-Jun-25 13:59:33 - INFO - output/04-Jun-25.csv borrado
+04-Jun-25 13:59:33 - INFO - output/04-Jun-25.csv Creado
+04-Jun-25 13:59:34 - INFO - LOGUEANDOME A LINKEDIN COMO badag85383@jeanssi.com...
+04-Jun-25 13:59:42 - INFO - Login completado.
+04-Jun-25 13:59:42 - INFO - === Iniciando búsqueda para: Data Analyst ===
+04-Jun-25 13:59:42 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=data%20analyst&location=Worldwide&start=0
+04-Jun-25 14:00:22 - ERROR - ¡ERROR CRÍTICO! Timeout esperando la lista de resultados de la búsqueda. La página no cargó la lista principal o no es visible.
+04-Jun-25 14:00:22 - INFO - === Búsqueda completada para: Data Analyst. Total scrapeados: 0 ===
+04-Jun-25 14:00:32 - INFO - === Iniciando búsqueda para: Data Scientist ===
+04-Jun-25 14:00:32 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=data%20scientist&location=Worldwide&start=0
