@@ -1,0 +1,73 @@
+11-Jun-25 18:00:04 - INFO - Log file log\scraper_11-Jun-25_18-00-04.log created for LinkedIn Job Scraper.
+11-Jun-25 18:00:04 - INFO - output/11-Jun-25_linkedin_jobs.csv borrado
+11-Jun-25 18:00:04 - INFO - output/11-Jun-25_linkedin_jobs.csv Creado con encabezado.
+11-Jun-25 18:00:06 - INFO - LOGUEANDOME A LINKEDIN COMO wegoda2685@adrewire.com...
+11-Jun-25 18:00:25 - INFO - Login completado.
+11-Jun-25 18:00:25 - INFO - Navegación exitosa a la página principal después del login.
+11-Jun-25 18:00:42 - INFO - 
+--- Iniciando NUEVA búsqueda para: Keyword='Data%20Scientist', Ubicación='Spain', Remoto='true', Publicado='r86400' ---
+11-Jun-25 18:00:42 - INFO - Navegando a la URL de búsqueda inicial para 'Data%20Scientist': https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&keywords=Data%20Scientist&location=Spain&start=0
+11-Jun-25 18:01:00 - INFO - URL actual después de la navegación inicial: https://www.linkedin.com/jobs/search/?currentJobId=4249053768&f_TPR=r86400&f_WT=2&keywords=Data%20Scientist&location=Spain
+11-Jun-25 18:01:00 - INFO - Lista de resultados de búsqueda inicial encontrada y visible.
+11-Jun-25 18:01:04 - WARNING - No se pudo obtener el conteo de resultados inicial del elemento principal. Intentando selectores alternativos o asumiendo un conteo bajo.
+11-Jun-25 18:01:04 - WARNING - No se pudo obtener el conteo de resultados con selectores alternativos. Asumiendo 0 para continuar.
+11-Jun-25 18:01:04 - INFO - Iniciando scraping para 'Data%20Scientist' en 'Spain' (Total de resultados esperados: 0).
+11-Jun-25 18:01:04 - INFO - --- Procesando Página 1 de un máximo de 3 ---
+11-Jun-25 18:01:08 - INFO - No más contenido cargado al hacer scroll. Altura de la página estable: 945px.
+11-Jun-25 18:01:08 - INFO - Encontradas 7 tarjetas de trabajos visibles y válidas en la página después de scrolls.
+11-Jun-25 18:01:08 - INFO - Total de tarjetas de trabajo válidas visibles en la página 1: 7
+11-Jun-25 18:01:08 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249053768).
+11-Jun-25 18:01:16 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:01:22 - INFO - Trabajo extraído exitosamente: Data Annotator (Math & Coding) en micro1 (ID: 4249053768)
+11-Jun-25 18:01:23 - INFO - Trabajo 4249053768 añadido al CSV.
+11-Jun-25 18:01:26 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249266285).
+11-Jun-25 18:01:34 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:01:39 - INFO - Trabajo extraído exitosamente: Data Analyst en Taskify (ID: 4249266285)
+11-Jun-25 18:01:39 - INFO - Trabajo 4249266285 añadido al CSV.
+11-Jun-25 18:01:41 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247130180).
+11-Jun-25 18:01:49 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:01:55 - INFO - Trabajo extraído exitosamente: Data Scientist I+D en Treelogic (ID: 4247130180)
+11-Jun-25 18:01:55 - INFO - Trabajo 4247130180 añadido al CSV.
+11-Jun-25 18:01:58 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249267257).
+11-Jun-25 18:02:06 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:02:10 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en Biome Makers Inc. (ID: 4249267257)
+11-Jun-25 18:02:10 - INFO - Trabajo 4249267257 añadido al CSV.
+11-Jun-25 18:02:13 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249050746).
+11-Jun-25 18:02:21 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:02:25 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en Runtime Group Ltd (ID: 4249050746)
+11-Jun-25 18:02:25 - INFO - Trabajo 4249050746 añadido al CSV.
+11-Jun-25 18:02:28 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4233692005).
+11-Jun-25 18:02:37 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:02:42 - INFO - Trabajo extraído exitosamente: AI - Data Scientist en team.blue (ID: 4233692005)
+11-Jun-25 18:02:42 - INFO - Trabajo 4233692005 añadido al CSV.
+11-Jun-25 18:02:45 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4233657682).
+11-Jun-25 18:02:53 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:02:58 - INFO - Trabajo extraído exitosamente: Search - Workchat - Principal Data Scientist en Elastic (ID: 4233657682)
+11-Jun-25 18:02:58 - INFO - Trabajo 4233657682 añadido al CSV.
+11-Jun-25 18:03:01 - INFO - Intentando pasar a la página 2...
+11-Jun-25 18:03:17 - INFO - Tu XPath para la página 2 no funcionó, intentando con tu Selector CSS.
+11-Jun-25 18:03:28 - ERROR - WebDriverException capturada durante la búsqueda de 'Data%20Scientist': Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9e5a]
+	(No symbol) [0x0x7ff608a95c25]
+	(No symbol) [0x0x7ff608abac44]
+	(No symbol) [0x0x7ff608b303c5]
+	(No symbol) [0x0x7ff608b50922]
+	(No symbol) [0x0x7ff608b28743]
+	(No symbol) [0x0x7ff608af14c1]
+	(No symbol) [0x0x7ff608af2253]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	GetHandleVerifier [0x0x7ff608cf8df4+115860]
+	GetHandleVerifier [0x0x7ff608cf8fa9+116297]
+	GetHandleVerifier [0x0x7ff608cdf558+11256]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+. Re-conectando el navegador para la siguiente búsqueda.

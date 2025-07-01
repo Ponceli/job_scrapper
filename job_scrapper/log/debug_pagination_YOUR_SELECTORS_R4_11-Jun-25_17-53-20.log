@@ -1,0 +1,28 @@
+11-Jun-25 17:53:20 - INFO - Log file log\debug_pagination_YOUR_SELECTORS_R4_11-Jun-25_17-53-20.log created for pagination debugging (Using your selectors R4).
+11-Jun-25 17:53:22 - INFO - LOGUEANDOME A LINKEDIN COMO wegoda2685@adrewire.com...
+11-Jun-25 17:53:36 - INFO - Login completado.
+11-Jun-25 17:53:41 - CRITICAL - Error crítico en el script principal de depuración: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9e5a]
+	(No symbol) [0x0x7ff608a820f1]
+	(No symbol) [0x0x7ff608b3017e]
+	(No symbol) [0x0x7ff608b50922]
+	(No symbol) [0x0x7ff608b28743]
+	(No symbol) [0x0x7ff608af14c1]
+	(No symbol) [0x0x7ff608af2253]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	GetHandleVerifier [0x0x7ff608cf8df4+115860]
+	GetHandleVerifier [0x0x7ff608cf8fa9+116297]
+	GetHandleVerifier [0x0x7ff608cdf558+11256]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+
+11-Jun-25 17:53:41 - INFO - Proceso de depuración de paginación completado.

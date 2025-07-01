@@ -1,0 +1,412 @@
+11-Jun-25 18:51:30 - INFO - Log file log\11-Jun-25_18-51-30.log created
+11-Jun-25 18:51:30 - INFO - output/11-Jun-25_linkedin_jobs.csv borrado
+11-Jun-25 18:51:30 - INFO - output/11-Jun-25_linkedin_jobs.csv Creado
+11-Jun-25 18:51:32 - INFO - LOGUEANDOME A LINKEDIN COMO wegoda2685@adrewire.com...
+11-Jun-25 18:51:55 - INFO - Login completado.
+11-Jun-25 18:51:55 - INFO - Navegación exitosa a la página principal después del login.
+11-Jun-25 18:52:08 - INFO - 
+--- Iniciando búsqueda para: Keyword='Data%20Scientist', Ubicación='Spain', Remoto='true', Publicado='r86400' ---
+
+11-Jun-25 18:52:08 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=Data%20Scientist&location=Spain&start=0
+11-Jun-25 18:52:30 - INFO - URL actual después de la navegación: https://www.linkedin.com/jobs/search/?currentJobId=4247348554&f_TPR=r86400&f_WT=2&geoId=92000000&keywords=Data%20Scientist&location=Spain
+11-Jun-25 18:52:30 - INFO - Lista de resultados de búsqueda inicial encontrada y visible.
+11-Jun-25 18:52:33 - WARNING - No se pudo obtener el conteo de resultados inicial. Intentando selectores alternativos o asumiendo un conteo bajo.
+11-Jun-25 18:52:33 - WARNING - No se pudo obtener el conteo de resultados con selectores alternativos. Asumiendo 0 para continuar.
+11-Jun-25 18:52:33 - INFO - Iniciando scraping para 'Data%20Scientist' en 'Spain' (0 resultados totales esperados)...
+11-Jun-25 18:52:33 - INFO - --- Procesando Página 1 de un máximo de 3 ---
+11-Jun-25 18:52:41 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 18:52:41 - INFO - Total de tarjetas de trabajo válidas visibles en la página 1: 25
+11-Jun-25 18:52:41 - INFO - Procesando trabajo 1/25 (ID: 4247348554).
+11-Jun-25 18:52:41 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247348554).
+11-Jun-25 18:52:51 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:53:02 - INFO - Trabajo extraído exitosamente: Data Scientist en Holcim ADC (ID: 4247348554)
+11-Jun-25 18:53:04 - INFO - Procesando trabajo 2/25 (ID: 4231868796).
+11-Jun-25 18:53:04 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4231868796).
+11-Jun-25 18:53:12 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:53:19 - INFO - Trabajo extraído exitosamente: Data Scientist (L5) - Customer Service en Netflix (ID: 4231868796)
+11-Jun-25 18:53:23 - INFO - Procesando trabajo 3/25 (ID: 4247198398).
+11-Jun-25 18:53:23 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247198398).
+11-Jun-25 18:53:33 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:53:38 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en Travel + Leisure Co. (ID: 4247198398)
+11-Jun-25 18:53:41 - INFO - Procesando trabajo 4/25 (ID: 4247334073).
+11-Jun-25 18:53:41 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247334073).
+11-Jun-25 18:53:51 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:53:56 - INFO - Trabajo extraído exitosamente: Staff Data Scientist en Capital Rx (ID: 4247334073)
+11-Jun-25 18:53:59 - INFO - Procesando trabajo 5/25 (ID: 4247140467).
+11-Jun-25 18:53:59 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247140467).
+11-Jun-25 18:54:08 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:54:14 - INFO - Trabajo extraído exitosamente: Data Scientist / Analytical Analyst en Ambition (ID: 4247140467)
+11-Jun-25 18:54:16 - INFO - Procesando trabajo 6/25 (ID: 4249040829).
+11-Jun-25 18:54:16 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249040829).
+11-Jun-25 18:54:26 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:54:32 - INFO - Trabajo extraído exitosamente: Quality Insights Lead en Airbnb (ID: 4249040829)
+11-Jun-25 18:54:35 - INFO - Procesando trabajo 7/25 (ID: 4247347581).
+11-Jun-25 18:54:35 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247347581).
+11-Jun-25 18:54:47 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:54:53 - INFO - Trabajo extraído exitosamente: Lead Data Scientist en Insight Global (ID: 4247347581)
+11-Jun-25 18:54:56 - INFO - Procesando trabajo 8/25 (ID: 4249037234).
+11-Jun-25 18:54:56 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249037234).
+11-Jun-25 18:54:59 - WARNING - Error al intentar clic normal: Message: element click intercepted: Element <li id="ember241" class="ember-view   vKrFXuKTWhhTGJqWrfOGfkQLuKfjEYbPbfB occludable-update p0 relative scaffold-layout__list-item" data-occludable-job-id="4249037234">...</li> is not clickable at point (147, 472). Other element would receive the click: <div class="display-flex align-items-center mt4">...</div>
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9e5a]
+	(No symbol) [0x0x7ff608b08599]
+	(No symbol) [0x0x7ff608b05f32]
+	(No symbol) [0x0x7ff608b02f71]
+	(No symbol) [0x0x7ff608b01e61]
+	(No symbol) [0x0x7ff608af3464]
+	(No symbol) [0x0x7ff608b2896a]
+	(No symbol) [0x0x7ff608af2d16]
+	(No symbol) [0x0x7ff608b28b80]
+	(No symbol) [0x0x7ff608b5100d]
+	(No symbol) [0x0x7ff608b28743]
+	(No symbol) [0x0x7ff608af14c1]
+	(No symbol) [0x0x7ff608af2253]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	GetHandleVerifier [0x0x7ff608cf8df4+115860]
+	GetHandleVerifier [0x0x7ff608cf8fa9+116297]
+	GetHandleVerifier [0x0x7ff608cdf558+11256]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+. Intentando clic con JavaScript para ID: 4249037234.
+11-Jun-25 18:55:07 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:55:12 - INFO - Trabajo extraído exitosamente: Lead Data Scientist en Insight Global (ID: 4249037234)
+11-Jun-25 18:55:15 - INFO - Procesando trabajo 9/25 (ID: 4248370389).
+11-Jun-25 18:55:15 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4248370389).
+11-Jun-25 18:55:17 - WARNING - Error al intentar clic normal: Message: element click intercepted: Element <li id="ember242" class="ember-view   vKrFXuKTWhhTGJqWrfOGfkQLuKfjEYbPbfB occludable-update p0 relative scaffold-layout__list-item" data-occludable-job-id="4248370389">...</li> is not clickable at point (147, 472). Other element would receive the click: <div class="display-flex align-items-center mt4">...</div>
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9e5a]
+	(No symbol) [0x0x7ff608b08599]
+	(No symbol) [0x0x7ff608b05f32]
+	(No symbol) [0x0x7ff608b02f71]
+	(No symbol) [0x0x7ff608b01e61]
+	(No symbol) [0x0x7ff608af3464]
+	(No symbol) [0x0x7ff608b2896a]
+	(No symbol) [0x0x7ff608af2d16]
+	(No symbol) [0x0x7ff608b28b80]
+	(No symbol) [0x0x7ff608b5100d]
+	(No symbol) [0x0x7ff608b28743]
+	(No symbol) [0x0x7ff608af14c1]
+	(No symbol) [0x0x7ff608af2253]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	GetHandleVerifier [0x0x7ff608cf8df4+115860]
+	GetHandleVerifier [0x0x7ff608cf8fa9+116297]
+	GetHandleVerifier [0x0x7ff608cdf558+11256]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+. Intentando clic con JavaScript para ID: 4248370389.
+11-Jun-25 18:55:25 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:55:30 - INFO - Trabajo extraído exitosamente: Lead Data Scientist en Insight Global (ID: 4248370389)
+11-Jun-25 18:55:34 - INFO - Procesando trabajo 10/25 (ID: 4247324727).
+11-Jun-25 18:55:34 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247324727).
+11-Jun-25 18:55:36 - WARNING - Error al intentar clic normal: Message: element click intercepted: Element <li id="ember243" class="ember-view   vKrFXuKTWhhTGJqWrfOGfkQLuKfjEYbPbfB occludable-update p0 relative scaffold-layout__list-item" data-occludable-job-id="4247324727">...</li> is not clickable at point (147, 472). Other element would receive the click: <div class="display-flex align-items-center mt4">...</div>
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9e5a]
+	(No symbol) [0x0x7ff608b08599]
+	(No symbol) [0x0x7ff608b05f32]
+	(No symbol) [0x0x7ff608b02f71]
+	(No symbol) [0x0x7ff608b01e61]
+	(No symbol) [0x0x7ff608af3464]
+	(No symbol) [0x0x7ff608b2896a]
+	(No symbol) [0x0x7ff608af2d16]
+	(No symbol) [0x0x7ff608b28b80]
+	(No symbol) [0x0x7ff608b5100d]
+	(No symbol) [0x0x7ff608b28743]
+	(No symbol) [0x0x7ff608af14c1]
+	(No symbol) [0x0x7ff608af2253]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	GetHandleVerifier [0x0x7ff608cf8df4+115860]
+	GetHandleVerifier [0x0x7ff608cf8fa9+116297]
+	GetHandleVerifier [0x0x7ff608cdf558+11256]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+. Intentando clic con JavaScript para ID: 4247324727.
+11-Jun-25 18:55:45 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:55:51 - INFO - Trabajo extraído exitosamente: Lead Data Scientist en Insight Global (ID: 4247324727)
+11-Jun-25 18:55:54 - INFO - Procesando trabajo 11/25 (ID: 4247165086).
+11-Jun-25 18:55:54 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247165086).
+11-Jun-25 18:55:55 - WARNING - Error al intentar clic normal: Message: element click intercepted: Element <li id="ember244" class="ember-view   vKrFXuKTWhhTGJqWrfOGfkQLuKfjEYbPbfB occludable-update p0 relative scaffold-layout__list-item" data-occludable-job-id="4247165086">...</li> is not clickable at point (147, 472). Other element would receive the click: <div class="display-flex align-items-center mt4">...</div>
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9e5a]
+	(No symbol) [0x0x7ff608b08599]
+	(No symbol) [0x0x7ff608b05f32]
+	(No symbol) [0x0x7ff608b02f71]
+	(No symbol) [0x0x7ff608b01e61]
+	(No symbol) [0x0x7ff608af3464]
+	(No symbol) [0x0x7ff608b2896a]
+	(No symbol) [0x0x7ff608af2d16]
+	(No symbol) [0x0x7ff608b28b80]
+	(No symbol) [0x0x7ff608b5100d]
+	(No symbol) [0x0x7ff608b28743]
+	(No symbol) [0x0x7ff608af14c1]
+	(No symbol) [0x0x7ff608af2253]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	GetHandleVerifier [0x0x7ff608cf8df4+115860]
+	GetHandleVerifier [0x0x7ff608cf8fa9+116297]
+	GetHandleVerifier [0x0x7ff608cdf558+11256]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+. Intentando clic con JavaScript para ID: 4247165086.
+11-Jun-25 18:56:02 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:56:09 - INFO - Trabajo extraído exitosamente: Lead Data Scientist en Insight Global (ID: 4247165086)
+11-Jun-25 18:56:11 - INFO - Procesando trabajo 12/25 (ID: 4192143919).
+11-Jun-25 18:56:11 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4192143919).
+11-Jun-25 18:56:21 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:56:26 - INFO - Trabajo extraído exitosamente: Senior Data Scientist - Guide en Included Health (ID: 4192143919)
+11-Jun-25 18:56:30 - INFO - Procesando trabajo 13/25 (ID: 4249053768).
+11-Jun-25 18:56:30 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249053768).
+11-Jun-25 18:56:38 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:56:42 - INFO - Trabajo extraído exitosamente: Data Annotator (Math & Coding) en micro1 (ID: 4249053768)
+11-Jun-25 18:56:45 - INFO - Procesando trabajo 14/25 (ID: 4249266285).
+11-Jun-25 18:56:45 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249266285).
+11-Jun-25 18:56:54 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:57:00 - INFO - Trabajo extraído exitosamente: Data Analyst en Taskify (ID: 4249266285)
+11-Jun-25 18:57:03 - INFO - Procesando trabajo 15/25 (ID: 4249039969).
+11-Jun-25 18:57:03 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249039969).
+11-Jun-25 18:57:11 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:57:17 - INFO - Trabajo extraído exitosamente: Data Scientist en Fintech Farm (ID: 4249039969)
+11-Jun-25 18:57:21 - INFO - Procesando trabajo 16/25 (ID: 4246562434).
+11-Jun-25 18:57:21 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4246562434).
+11-Jun-25 18:57:29 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:57:34 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en BetterEngineer (ID: 4246562434)
+11-Jun-25 18:57:38 - INFO - Procesando trabajo 17/25 (ID: 4233807217).
+11-Jun-25 18:57:38 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4233807217).
+11-Jun-25 18:57:46 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:57:52 - INFO - Trabajo extraído exitosamente: Data Scientist | Merch Algorithms | Pricing Optimization en Stitch Fix (ID: 4233807217)
+11-Jun-25 18:57:56 - INFO - Procesando trabajo 18/25 (ID: 4248389553).
+11-Jun-25 18:57:56 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4248389553).
+11-Jun-25 18:57:58 - WARNING - Error al intentar clic normal: Message: element click intercepted: Element <li id="ember251" class="ember-view   vKrFXuKTWhhTGJqWrfOGfkQLuKfjEYbPbfB occludable-update p0 relative scaffold-layout__list-item" data-occludable-job-id="4248389553">...</li> is not clickable at point (147, 472). Other element would receive the click: <button class="jobs-save-button
+         artdeco-button artdeco-button--secondary artdeco-button--3" type="button">...</button>
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9e5a]
+	(No symbol) [0x0x7ff608b08599]
+	(No symbol) [0x0x7ff608b05f32]
+	(No symbol) [0x0x7ff608b02f71]
+	(No symbol) [0x0x7ff608b01e61]
+	(No symbol) [0x0x7ff608af3464]
+	(No symbol) [0x0x7ff608b2896a]
+	(No symbol) [0x0x7ff608af2d16]
+	(No symbol) [0x0x7ff608b28b80]
+	(No symbol) [0x0x7ff608b5100d]
+	(No symbol) [0x0x7ff608b28743]
+	(No symbol) [0x0x7ff608af14c1]
+	(No symbol) [0x0x7ff608af2253]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	GetHandleVerifier [0x0x7ff608cf8df4+115860]
+	GetHandleVerifier [0x0x7ff608cf8fa9+116297]
+	GetHandleVerifier [0x0x7ff608cdf558+11256]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+. Intentando clic con JavaScript para ID: 4248389553.
+11-Jun-25 18:58:05 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:58:10 - INFO - Trabajo extraído exitosamente: Data Scientist | Merch Algorithms | Pricing Optimization en Stitch Fix (ID: 4248389553)
+11-Jun-25 18:58:13 - INFO - Procesando trabajo 19/25 (ID: 4247130180).
+11-Jun-25 18:58:13 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247130180).
+11-Jun-25 18:58:21 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:58:27 - INFO - Trabajo extraído exitosamente: Data Scientist I+D en Treelogic (ID: 4247130180)
+11-Jun-25 18:58:29 - INFO - Procesando trabajo 20/25 (ID: 4247155865).
+11-Jun-25 18:58:29 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247155865).
+11-Jun-25 18:58:38 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:58:42 - INFO - Trabajo extraído exitosamente: Data Scientist en fabbricadigitale (ID: 4247155865)
+11-Jun-25 18:58:44 - INFO - Procesando trabajo 21/25 (ID: 4246762940).
+11-Jun-25 18:58:44 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4246762940).
+11-Jun-25 18:58:55 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:58:59 - INFO - Trabajo extraído exitosamente: Lead Data Scientist en iScale Solutions (ID: 4246762940)
+11-Jun-25 18:59:02 - INFO - Procesando trabajo 22/25 (ID: 4247320755).
+11-Jun-25 18:59:02 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247320755).
+11-Jun-25 18:59:11 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:59:17 - INFO - Trabajo extraído exitosamente: Data Scientist and LLM Operations Specialist en Ampstek (ID: 4247320755)
+11-Jun-25 18:59:20 - INFO - Procesando trabajo 23/25 (ID: 4246063013).
+11-Jun-25 18:59:20 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4246063013).
+11-Jun-25 18:59:29 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:59:36 - INFO - Trabajo extraído exitosamente: Data Scientist / Analyst – Modeling & Analytics en Arrowhead development (ID: 4246063013)
+11-Jun-25 18:59:38 - INFO - Procesando trabajo 24/25 (ID: 4249279996).
+11-Jun-25 18:59:39 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249279996).
+11-Jun-25 18:59:49 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 18:59:54 - INFO - Trabajo extraído exitosamente: Data Analyst / Data Scientist en Doyensys Inc (ID: 4249279996)
+11-Jun-25 18:59:57 - INFO - Procesando trabajo 25/25 (ID: 4247322076).
+11-Jun-25 18:59:57 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247322076).
+11-Jun-25 19:00:06 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:00:10 - INFO - Trabajo extraído exitosamente: Principal Data Scientist en Akkodis (ID: 4247322076)
+11-Jun-25 19:00:12 - INFO - Intentando pasar a la página 2 usando el botón 'Siguiente' para 'Data%20Scientist'...
+11-Jun-25 19:00:27 - INFO - Timeout al esperar el botón 'Siguiente' o que la siguiente página cargue/active para 'Data%20Scientist'. Posiblemente hemos llegado a la última página de resultados para esta búsqueda.
+11-Jun-25 19:00:27 - INFO - Captura de pantalla guardada en debug_screenshot_pagination_timeout_next_button_2_Data%20Scientist.png
+11-Jun-25 19:00:27 - INFO - Scraping completado para 'Data%20Scientist'. Total de trabajos extraídos: 25.
+11-Jun-25 19:00:27 - INFO - 
+--- Iniciando búsqueda para: Keyword='Data%20Engineer', Ubicación='Spain', Remoto='true', Publicado='r86400' ---
+
+11-Jun-25 19:00:27 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=Data%20Engineer&location=Spain&start=0
+11-Jun-25 19:00:55 - INFO - URL actual después de la navegación: https://www.linkedin.com/jobs/search/?currentJobId=4247328938&f_TPR=r86400&f_WT=2&geoId=92000000&keywords=Data%20Engineer&location=Spain
+11-Jun-25 19:00:55 - INFO - Lista de resultados de búsqueda inicial encontrada y visible.
+11-Jun-25 19:00:58 - WARNING - No se pudo obtener el conteo de resultados inicial. Intentando selectores alternativos o asumiendo un conteo bajo.
+11-Jun-25 19:00:58 - WARNING - No se pudo obtener el conteo de resultados con selectores alternativos. Asumiendo 0 para continuar.
+11-Jun-25 19:00:58 - INFO - Iniciando scraping para 'Data%20Engineer' en 'Spain' (0 resultados totales esperados)...
+11-Jun-25 19:00:58 - INFO - --- Procesando Página 1 de un máximo de 3 ---
+11-Jun-25 19:01:05 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 19:01:05 - INFO - Total de tarjetas de trabajo válidas visibles en la página 1: 25
+11-Jun-25 19:01:06 - INFO - Procesando trabajo 1/25 (ID: 4247328938).
+11-Jun-25 19:01:06 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247328938).
+11-Jun-25 19:01:17 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:01:22 - INFO - Trabajo extraído exitosamente: Data Engineer - Remoto en Stefanini LATAM (ID: 4247328938)
+11-Jun-25 19:01:25 - INFO - Procesando trabajo 2/25 (ID: 4246333057).
+11-Jun-25 19:01:26 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4246333057).
+11-Jun-25 19:01:34 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:01:39 - INFO - Trabajo extraído exitosamente: Data Engineer en Axon (ID: 4246333057)
+11-Jun-25 19:01:42 - INFO - Procesando trabajo 3/25 (ID: 4242769980).
+11-Jun-25 19:01:42 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4242769980).
+11-Jun-25 19:01:52 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:01:57 - INFO - Trabajo extraído exitosamente: Data Engineer en Nextar (ID: 4242769980)
+11-Jun-25 19:01:59 - INFO - Procesando trabajo 4/25 (ID: 4247347908).
+11-Jun-25 19:01:59 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247347908).
+11-Jun-25 19:02:07 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:02:13 - INFO - Trabajo extraído exitosamente: Data Analytics Engineer en Newfire Global Partners (ID: 4247347908)
+11-Jun-25 19:02:15 - INFO - Procesando trabajo 5/25 (ID: 4249090728).
+11-Jun-25 19:02:15 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249090728).
+11-Jun-25 19:02:25 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:02:31 - INFO - Trabajo extraído exitosamente: Data Engineer (mid-level) en CareCentrix (ID: 4249090728)
+11-Jun-25 19:02:33 - INFO - Procesando trabajo 6/25 (ID: 4248683290).
+11-Jun-25 19:02:33 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4248683290).
+11-Jun-25 19:02:42 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:02:48 - WARNING - No se encontró el nombre de la empresa para ID 4248683290.
+11-Jun-25 19:02:48 - INFO - Trabajo extraído exitosamente: Data Engineer en  (ID: 4248683290)
+11-Jun-25 19:02:52 - INFO - Procesando trabajo 7/25 (ID: 4247319005).
+11-Jun-25 19:02:52 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247319005).
+11-Jun-25 19:03:00 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:03:05 - INFO - Trabajo extraído exitosamente: Senior Data Engineer en GBH (ID: 4247319005)
+11-Jun-25 19:03:08 - INFO - Procesando trabajo 8/25 (ID: 4249078988).
+11-Jun-25 19:03:09 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249078988).
+11-Jun-25 19:03:16 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:03:21 - INFO - Trabajo extraído exitosamente: Senior Data Engineer - PowerBI en Altia (ID: 4249078988)
+11-Jun-25 19:03:24 - INFO - Procesando trabajo 9/25 (ID: 4249274298).
+11-Jun-25 19:03:24 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249274298).
+11-Jun-25 19:03:35 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:03:40 - INFO - Trabajo extraído exitosamente: Senior Data Engineer en AllCloud (ID: 4249274298)
+11-Jun-25 19:03:43 - INFO - Procesando trabajo 10/25 (ID: 4247146002).
+11-Jun-25 19:03:43 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247146002).
+11-Jun-25 19:03:52 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:03:58 - INFO - Trabajo extraído exitosamente: Data Engineer en La Fosse (ID: 4247146002)
+11-Jun-25 19:04:01 - INFO - Procesando trabajo 11/25 (ID: 4247308059).
+11-Jun-25 19:04:01 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247308059).
+11-Jun-25 19:04:11 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:04:15 - INFO - Trabajo extraído exitosamente: Junior Data Migration Engineer-3-6 Months Contract-Remote opportunity-Direct Customer en Accion Labs (ID: 4247308059)
+11-Jun-25 19:04:18 - INFO - Procesando trabajo 12/25 (ID: 4247308120).
+11-Jun-25 19:04:18 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247308120).
+11-Jun-25 19:04:27 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:04:33 - INFO - Trabajo extraído exitosamente: Senior Data Engineer en Zonda (ID: 4247308120)
+11-Jun-25 19:04:36 - INFO - Procesando trabajo 13/25 (ID: 4236817872).
+11-Jun-25 19:04:36 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4236817872).
+11-Jun-25 19:04:44 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:04:51 - INFO - Trabajo extraído exitosamente: GCP Data engineer en RandomTrees (ID: 4236817872)
+11-Jun-25 19:04:54 - INFO - Procesando trabajo 14/25 (ID: 4249034918).
+11-Jun-25 19:04:54 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249034918).
+11-Jun-25 19:05:03 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:05:09 - INFO - Trabajo extraído exitosamente: Power BI Engineer (Remote) en Lensa (ID: 4249034918)
+11-Jun-25 19:05:12 - INFO - Procesando trabajo 15/25 (ID: 4247333780).
+11-Jun-25 19:05:12 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247333780).
+11-Jun-25 19:05:20 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:05:25 - INFO - Trabajo extraído exitosamente: Azure Data Engineer en techolution (ID: 4247333780)
+11-Jun-25 19:05:27 - INFO - Procesando trabajo 16/25 (ID: 4247045152).
+11-Jun-25 19:05:27 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247045152).
+11-Jun-25 19:05:36 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 19:05:41 - INFO - Trabajo extraído exitosamente: Data Engineer - BI Models & Snowflake en AspenView Technology Partners (ID: 4247045152)
+11-Jun-25 19:05:45 - INFO - Procesando trabajo 17/25 (ID: 4249229565).
+11-Jun-25 19:05:45 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249229565).
+11-Jun-25 19:05:54 - ERROR - WebDriverException durante scrape_job_details para ID 4249229565: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9e5a]
+	(No symbol) [0x0x7ff608a95c25]
+	(No symbol) [0x0x7ff608abac44]
+	(No symbol) [0x0x7ff608b303c5]
+	(No symbol) [0x0x7ff608b50922]
+	(No symbol) [0x0x7ff608b28743]
+	(No symbol) [0x0x7ff608af14c1]
+	(No symbol) [0x0x7ff608af2253]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	GetHandleVerifier [0x0x7ff608cf8df4+115860]
+	GetHandleVerifier [0x0x7ff608cf8fa9+116297]
+	GetHandleVerifier [0x0x7ff608cdf558+11256]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+. La sesión puede haberse perdido.
+11-Jun-25 19:05:54 - CRITICAL - WebDriverException inesperada durante el scraping para ID 4249229565: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9c8c]
+	(No symbol) [0x0x7ff608af05ef]
+	(No symbol) [0x0x7ff608b28832]
+	(No symbol) [0x0x7ff608b23233]
+	(No symbol) [0x0x7ff608b222f9]
+	(No symbol) [0x0x7ff608a75fc5]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	(No symbol) [0x0x7ff608a75036]
+	GetHandleVerifier [0x0x7ff6090d3c78+4158232]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+. Finalizando el scraping para esta palabra clave para reintentar la conexión.
+11-Jun-25 19:05:54 - CRITICAL - WebDriverException capturada durante la búsqueda de 'Data%20Engineer': Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9c8c]
+	(No symbol) [0x0x7ff608af05ef]
+	(No symbol) [0x0x7ff608b28832]
+	(No symbol) [0x0x7ff608b23233]
+	(No symbol) [0x0x7ff608b222f9]
+	(No symbol) [0x0x7ff608a75fc5]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	(No symbol) [0x0x7ff608a75036]
+	GetHandleVerifier [0x0x7ff6090d3c78+4158232]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+. Se intentará re-conectar el navegador para la siguiente búsqueda.

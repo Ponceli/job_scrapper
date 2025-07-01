@@ -1,0 +1,332 @@
+05-Jun-25 20:52:26 - INFO - Log file log\05-Jun-25_20-52-26.log created
+05-Jun-25 20:52:26 - INFO - output/05-Jun-25.csv borrado
+05-Jun-25 20:52:26 - INFO - output/05-Jun-25.csv Creado
+05-Jun-25 20:52:31 - INFO - LOGUEANDOME A LINKEDIN COMO kideve4885@cigidea.com...
+05-Jun-25 20:52:53 - INFO - Login completado.
+05-Jun-25 20:52:53 - INFO - Navegación exitosa a la página principal después del login.
+05-Jun-25 20:53:07 - INFO - === Iniciando búsqueda para: Data Analyst ===
+05-Jun-25 20:53:07 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=data%20analyst&location=Worldwide&start=0
+05-Jun-25 20:54:13 - ERROR - ¡ERROR CRÍTICO! Timeout esperando la lista de resultados de la búsqueda. La página no cargó la lista principal o no es visible.
+05-Jun-25 20:54:13 - INFO - === Búsqueda completada para: Data Analyst. Total scrapeados: 0 ===
+05-Jun-25 20:54:35 - INFO - Driver cerrado correctamente al final de la iteración de la palabra clave.
+05-Jun-25 20:54:36 - INFO - LOGUEANDOME A LINKEDIN COMO kideve4885@cigidea.com...
+05-Jun-25 20:54:45 - ERROR - No se encontró el formulario de login o falló el clic.
+05-Jun-25 20:54:45 - ERROR - Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c75c25]
+	(No symbol) [0x0x7ff7c8c9ac44]
+	(No symbol) [0x0x7ff7c8d103c5]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+
+05-Jun-25 20:54:45 - ERROR - Error grave de WebDriver durante la búsqueda de 'Data Scientist': Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c75c25]
+	(No symbol) [0x0x7ff7c8c9ac44]
+	(No symbol) [0x0x7ff7c8d103c5]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+
+05-Jun-25 20:54:45 - WARNING - Reintentando la búsqueda para 'Data Scientist'...
+05-Jun-25 20:54:45 - INFO - Reintentando Data Scientist (1/3). Pausa antes de reintentar...
+05-Jun-25 20:55:24 - INFO - LOGUEANDOME A LINKEDIN COMO kideve4885@cigidea.com...
+05-Jun-25 20:55:36 - ERROR - No se encontró el formulario de login o falló el clic.
+05-Jun-25 20:55:36 - ERROR - Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c620f1]
+	(No symbol) [0x0x7ff7c8d1017e]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+
+05-Jun-25 20:55:36 - ERROR - Error grave de WebDriver durante la búsqueda de 'Data Scientist': Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c620f1]
+	(No symbol) [0x0x7ff7c8d1017e]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+
+05-Jun-25 20:55:36 - WARNING - Reintentando la búsqueda para 'Data Scientist'...
+05-Jun-25 20:55:36 - INFO - Reintentando Data Scientist (2/3). Pausa antes de reintentar...
+05-Jun-25 20:56:21 - INFO - LOGUEANDOME A LINKEDIN COMO kideve4885@cigidea.com...
+05-Jun-25 20:56:31 - ERROR - No se encontró el formulario de login o falló el clic.
+05-Jun-25 20:56:31 - ERROR - Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c75c25]
+	(No symbol) [0x0x7ff7c8c9ac44]
+	(No symbol) [0x0x7ff7c8d103c5]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+
+05-Jun-25 20:56:31 - ERROR - Error grave de WebDriver durante la búsqueda de 'Data Scientist': Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c75c25]
+	(No symbol) [0x0x7ff7c8c9ac44]
+	(No symbol) [0x0x7ff7c8d103c5]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+
+05-Jun-25 20:56:31 - ERROR - Se alcanzó el número máximo de reintentos para 'Data Scientist'. Saltando esta palabra clave.
+05-Jun-25 20:56:33 - INFO - LOGUEANDOME A LINKEDIN COMO kideve4885@cigidea.com...
+05-Jun-25 20:56:44 - ERROR - No se encontró el formulario de login o falló el clic.
+05-Jun-25 20:56:44 - ERROR - Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c75c25]
+	(No symbol) [0x0x7ff7c8c9ac44]
+	(No symbol) [0x0x7ff7c8d103c5]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+
+05-Jun-25 20:56:44 - ERROR - Error grave de WebDriver durante la búsqueda de 'Data Engineer': Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c75c25]
+	(No symbol) [0x0x7ff7c8c9ac44]
+	(No symbol) [0x0x7ff7c8d103c5]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+
+05-Jun-25 20:56:44 - WARNING - Reintentando la búsqueda para 'Data Engineer'...
+05-Jun-25 20:56:44 - INFO - Reintentando Data Engineer (1/3). Pausa antes de reintentar...
+05-Jun-25 20:57:42 - INFO - LOGUEANDOME A LINKEDIN COMO kideve4885@cigidea.com...
+05-Jun-25 20:57:56 - ERROR - No se encontró el formulario de login o falló el clic.
+05-Jun-25 20:57:56 - ERROR - Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c75c25]
+	(No symbol) [0x0x7ff7c8c9ac44]
+	(No symbol) [0x0x7ff7c8d103c5]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+
+05-Jun-25 20:57:56 - ERROR - Error grave de WebDriver durante la búsqueda de 'Data Engineer': Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c75c25]
+	(No symbol) [0x0x7ff7c8c9ac44]
+	(No symbol) [0x0x7ff7c8d103c5]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+
+05-Jun-25 20:57:56 - WARNING - Reintentando la búsqueda para 'Data Engineer'...
+05-Jun-25 20:57:56 - INFO - Reintentando Data Engineer (2/3). Pausa antes de reintentar...
+05-Jun-25 20:58:53 - INFO - LOGUEANDOME A LINKEDIN COMO kideve4885@cigidea.com...
+05-Jun-25 20:59:03 - ERROR - No se encontró el formulario de login o falló el clic.
+05-Jun-25 20:59:03 - ERROR - Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c75c25]
+	(No symbol) [0x0x7ff7c8c9ac44]
+	(No symbol) [0x0x7ff7c8d103c5]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+
+05-Jun-25 20:59:03 - ERROR - Error grave de WebDriver durante la búsqueda de 'Data Engineer': Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c75c25]
+	(No symbol) [0x0x7ff7c8c9ac44]
+	(No symbol) [0x0x7ff7c8d103c5]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+
+05-Jun-25 20:59:03 - ERROR - Se alcanzó el número máximo de reintentos para 'Data Engineer'. Saltando esta palabra clave.
+05-Jun-25 20:59:03 - INFO - Scraping de todas las palabras clave completado.

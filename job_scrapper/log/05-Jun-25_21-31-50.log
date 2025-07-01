@@ -1,0 +1,169 @@
+05-Jun-25 21:31:50 - INFO - Log file log\05-Jun-25_21-31-50.log created
+05-Jun-25 21:31:50 - INFO - output/05-Jun-25_linkedin_jobs.csv borrado
+05-Jun-25 21:31:50 - INFO - output/05-Jun-25_linkedin_jobs.csv Creado
+05-Jun-25 21:31:52 - INFO - LOGUEANDOME A LINKEDIN COMO kideve4885@cigidea.com...
+05-Jun-25 21:32:16 - INFO - Login completado.
+05-Jun-25 21:32:16 - INFO - Navegación exitosa a la página principal después del login.
+05-Jun-25 21:32:32 - INFO - Iniciando búsqueda para: Keyword='Data%20Scientist', Ubicación='Spain', Remoto='true', Publicado='r86400'
+05-Jun-25 21:32:32 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=Data%20Scientist&location=Spain&start=0
+05-Jun-25 21:32:49 - INFO - Lista de resultados de búsqueda inicial encontrada y visible.
+05-Jun-25 21:32:54 - WARNING - No se pudo obtener el conteo de resultados inicial. Continuando sin él.
+05-Jun-25 21:32:54 - INFO - Iniciando scraping para 'Data%20Scientist' en 'Spain' (0 resultados totales esperados)...
+05-Jun-25 21:32:54 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 0.
+05-Jun-25 21:33:02 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 1/25. Altura: 945
+05-Jun-25 21:33:17 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+05-Jun-25 21:33:17 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+05-Jun-25 21:33:17 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4242974718).
+05-Jun-25 21:33:17 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4242974718).
+05-Jun-25 21:33:24 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+05-Jun-25 21:33:30 - INFO - Trabajo extraído exitosamente: Data Scientist en Stomble (ID: 4242974718)
+05-Jun-25 21:33:36 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4221676297).
+05-Jun-25 21:33:36 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4221676297).
+05-Jun-25 21:33:45 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+05-Jun-25 21:33:50 - INFO - Trabajo extraído exitosamente: Data Scientist en Zetheta Algorithms Private Limited (ID: 4221676297)
+05-Jun-25 21:33:57 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4245228991).
+05-Jun-25 21:33:57 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4245228991).
+05-Jun-25 21:34:06 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+05-Jun-25 21:34:10 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en Omnis Partners (ID: 4245228991)
+05-Jun-25 21:34:16 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4242976337).
+05-Jun-25 21:34:16 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4242976337).
+05-Jun-25 21:34:25 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+05-Jun-25 21:34:30 - INFO - Trabajo extraído exitosamente: Data Scientist en Wajusoft (ID: 4242976337)
+05-Jun-25 21:34:38 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4245571898).
+05-Jun-25 21:34:38 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4245571898).
+05-Jun-25 21:34:46 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+05-Jun-25 21:34:52 - INFO - Trabajo extraído exitosamente: Data Scientist (Junior) en DXC Technology (ID: 4245571898)
+05-Jun-25 21:34:58 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4242450263).
+05-Jun-25 21:34:58 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4242450263).
+05-Jun-25 21:35:05 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+05-Jun-25 21:35:09 - INFO - Trabajo extraído exitosamente: Data Scientist en AI Futures (ID: 4242450263)
+05-Jun-25 21:35:16 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4245569848).
+05-Jun-25 21:35:16 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4245569848).
+05-Jun-25 21:35:25 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+05-Jun-25 21:35:29 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en Agero, Inc. (ID: 4245569848)
+05-Jun-25 21:35:34 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4242425109).
+05-Jun-25 21:35:34 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4242425109).
+05-Jun-25 21:35:42 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+05-Jun-25 21:35:48 - INFO - Trabajo extraído exitosamente: Data Scientist en Annapurna (ID: 4242425109)
+05-Jun-25 21:35:54 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4245539439).
+05-Jun-25 21:35:54 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4245539439).
+05-Jun-25 21:36:03 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+05-Jun-25 21:36:08 - INFO - Trabajo extraído exitosamente: Senior Data Scientist - Product Analysis | Global Big Tech en Principle (ID: 4245539439)
+05-Jun-25 21:36:15 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4242947702).
+05-Jun-25 21:36:15 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4242947702).
+05-Jun-25 21:36:24 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+05-Jun-25 21:36:29 - INFO - Trabajo extraído exitosamente: Data Scientist en Aequor (ID: 4242947702)
+05-Jun-25 21:36:35 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4245739488).
+05-Jun-25 21:36:35 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4245739488).
+05-Jun-25 21:36:42 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+05-Jun-25 21:36:47 - INFO - Trabajo extraído exitosamente: Senior Data Analyst - Optum Health Analytics, National Remote en Lensa (ID: 4245739488)
+05-Jun-25 21:36:54 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4245594674).
+05-Jun-25 21:36:54 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4245594674).
+05-Jun-25 21:37:03 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+05-Jun-25 21:37:07 - INFO - Trabajo extraído exitosamente: Data Analyst en Clinical Professionals HX (ID: 4245594674)
+05-Jun-25 21:37:14 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4245588885).
+05-Jun-25 21:37:15 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4245588885).
+05-Jun-25 21:37:22 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+05-Jun-25 21:37:26 - ERROR - WebDriverException durante scrape_job_details para ID 4245588885: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c75c25]
+	(No symbol) [0x0x7ff7c8c9ac44]
+	(No symbol) [0x0x7ff7c8d103c5]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+. La sesión puede haberse perdido.
+05-Jun-25 21:37:26 - ERROR - WebDriverException inesperada durante el scraping para ID 4245588885: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c75c25]
+	(No symbol) [0x0x7ff7c8c9ac44]
+	(No symbol) [0x0x7ff7c8d103c5]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+. Finalizando el scraping para esta palabra clave para reintentar la conexión.
+05-Jun-25 21:37:26 - ERROR - WebDriverException capturada durante la búsqueda de 'Data%20Scientist': Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c75c25]
+	(No symbol) [0x0x7ff7c8c9ac44]
+	(No symbol) [0x0x7ff7c8d103c5]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+. Re-conectando el navegador.
+05-Jun-25 21:37:30 - INFO - LOGUEANDOME A LINKEDIN COMO kideve4885@cigidea.com...
+05-Jun-25 21:37:31 - CRITICAL - Error crítico en el script principal: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89c8c]
+	(No symbol) [0x0x7ff7c8c76f6b]
+	(No symbol) [0x0x7ff7c8c75e2e]
+	(No symbol) [0x0x7ff7c8c9ac44]
+	(No symbol) [0x0x7ff7c8c99f85]
+	(No symbol) [0x0x7ff7c8d31384]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+
+05-Jun-25 21:37:31 - INFO - Cerrando el navegador.

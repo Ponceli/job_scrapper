@@ -1,0 +1,16 @@
+04-Jun-25 13:40:59 - INFO - Log file log\04-Jun-25_13-40-59.log created
+04-Jun-25 13:40:59 - INFO - output/04-Jun-25.csv borrado
+04-Jun-25 13:40:59 - INFO - output/04-Jun-25.csv Creado
+04-Jun-25 13:41:00 - INFO - LOGUEANDOME A LINKEDIN COMO badag85383@jeanssi.com...
+04-Jun-25 13:41:09 - INFO - Login completado.
+04-Jun-25 13:41:09 - INFO - === Iniciando búsqueda para: Data Analyst ===
+04-Jun-25 13:41:09 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=data%20analyst&location=Worldwide&start=0
+04-Jun-25 13:41:29 - WARNING - Timeout esperando los resultados iniciales de la búsqueda. No se pudo cargar la página de resultados.
+04-Jun-25 13:41:29 - INFO - === Búsqueda completada para: Data Analyst. Total scrapeados: 0 ===
+04-Jun-25 13:41:39 - INFO - === Iniciando búsqueda para: Data Scientist ===
+04-Jun-25 13:41:39 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=data%20scientist&location=Worldwide&start=0
+04-Jun-25 13:41:48 - ERROR - Error general en el script principal: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))
+04-Jun-25 13:41:52 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C8A76995E0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/63879f5cc463417b989516948af5f86b
+04-Jun-25 13:41:56 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C8A76994F0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/63879f5cc463417b989516948af5f86b
+04-Jun-25 13:42:00 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C8A7699880>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/63879f5cc463417b989516948af5f86b
+04-Jun-25 13:42:04 - INFO - Driver cerrado correctamente.

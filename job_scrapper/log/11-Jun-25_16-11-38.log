@@ -1,0 +1,777 @@
+11-Jun-25 16:11:38 - INFO - Log file log\11-Jun-25_16-11-38.log created
+11-Jun-25 16:11:38 - INFO - output/11-Jun-25_linkedin_jobs.csv borrado
+11-Jun-25 16:11:38 - INFO - output/11-Jun-25_linkedin_jobs.csv Creado
+11-Jun-25 16:11:39 - INFO - LOGUEANDOME A LINKEDIN COMO wegoda2685@adrewire.com...
+11-Jun-25 16:11:50 - INFO - Login completado.
+11-Jun-25 16:11:56 - INFO - Navegación exitosa a la página principal después del login.
+11-Jun-25 16:12:07 - INFO - Iniciando búsqueda para: Keyword='Data%20Scientist', Ubicación='Spain', Remoto='true', Publicado='r86400'
+11-Jun-25 16:12:07 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=Data%20Scientist&location=Spain&start=0
+11-Jun-25 16:12:24 - INFO - Lista de resultados de búsqueda inicial encontrada y visible.
+11-Jun-25 16:12:32 - WARNING - No se pudo obtener el conteo de resultados inicial. Continuando sin él.
+11-Jun-25 16:12:32 - INFO - Iniciando scraping para 'Data%20Scientist' en 'Spain' (0 resultados totales esperados)...
+11-Jun-25 16:12:32 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 0.
+11-Jun-25 16:12:41 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 1/25. Altura: 985
+11-Jun-25 16:12:56 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:12:56 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:12:56 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249085755).
+11-Jun-25 16:12:56 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4249085755).
+11-Jun-25 16:13:05 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:13:10 - INFO - Trabajo extraído exitosamente: Data Scientist with ML en AllianceIT Inc (ID: 4249085755)
+11-Jun-25 16:13:13 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4231868796).
+11-Jun-25 16:13:13 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4231868796).
+11-Jun-25 16:13:19 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:13:25 - INFO - Trabajo extraído exitosamente: Data Scientist (L5) - Customer Service en Netflix (ID: 4231868796)
+11-Jun-25 16:13:28 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247198398).
+11-Jun-25 16:13:28 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247198398).
+11-Jun-25 16:13:35 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:13:40 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en Travel + Leisure Co. (ID: 4247198398)
+11-Jun-25 16:13:44 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4237698064).
+11-Jun-25 16:13:44 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4237698064).
+11-Jun-25 16:13:51 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:13:57 - INFO - Trabajo extraído exitosamente: Lead Data Scientist en Candid (ID: 4237698064)
+11-Jun-25 16:14:01 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247334073).
+11-Jun-25 16:14:01 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247334073).
+11-Jun-25 16:14:08 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:14:14 - INFO - Trabajo extraído exitosamente: Staff Data Scientist en Capital Rx (ID: 4247334073)
+11-Jun-25 16:14:16 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4248330340).
+11-Jun-25 16:14:16 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4248330340).
+11-Jun-25 16:14:23 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:14:29 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en Scanntech Uruguay (ID: 4248330340)
+11-Jun-25 16:14:31 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247140467).
+11-Jun-25 16:14:31 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247140467).
+11-Jun-25 16:14:39 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:14:44 - INFO - Trabajo extraído exitosamente: Data Scientist / Analytical Analyst en Ambition (ID: 4247140467)
+11-Jun-25 16:14:47 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249040829).
+11-Jun-25 16:14:47 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4249040829).
+11-Jun-25 16:14:55 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:15:00 - INFO - Trabajo extraído exitosamente: Quality Insights Lead en Airbnb (ID: 4249040829)
+11-Jun-25 16:15:03 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249037234).
+11-Jun-25 16:15:03 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4249037234).
+11-Jun-25 16:15:10 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:15:16 - INFO - Trabajo extraído exitosamente: FBS - Data Scientist I en Capgemini (ID: 4249037234)
+11-Jun-25 16:15:19 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4248370389).
+11-Jun-25 16:15:19 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4248370389).
+11-Jun-25 16:15:27 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:15:33 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en Harnham (ID: 4248370389)
+11-Jun-25 16:15:35 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247306690).
+11-Jun-25 16:15:35 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247306690).
+11-Jun-25 16:15:43 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:15:49 - INFO - Trabajo extraído exitosamente: Data Scientist en Insight Global (ID: 4247306690)
+11-Jun-25 16:15:51 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247324727).
+11-Jun-25 16:15:52 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247324727).
+11-Jun-25 16:15:59 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:16:04 - INFO - Trabajo extraído exitosamente: Data Scientist | Python | Natural Language Processing | Large Language Models | Machine Learning | Remote, US en Enigma (ID: 4247324727)
+11-Jun-25 16:16:07 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247165086).
+11-Jun-25 16:16:07 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247165086).
+11-Jun-25 16:16:14 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:16:19 - INFO - Trabajo extraído exitosamente: Senior Data Scientist (US Time Zone) en TalenTown \u0130nsan Kaynaklar\u0131 - \u0130\u015fe Al\u0131m Ajans\u0131 (ID: 4247165086)
+11-Jun-25 16:16:22 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4192143919).
+11-Jun-25 16:16:22 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4192143919).
+11-Jun-25 16:16:31 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:16:36 - INFO - Trabajo extraído exitosamente: Senior Data Scientist - Guide en Included Health (ID: 4192143919)
+11-Jun-25 16:16:39 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249053768).
+11-Jun-25 16:16:39 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4249053768).
+11-Jun-25 16:16:46 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:16:50 - INFO - Trabajo extraído exitosamente: Data Annotator (Math & Coding) en micro1 (ID: 4249053768)
+11-Jun-25 16:16:54 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249262759).
+11-Jun-25 16:16:54 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4249262759).
+11-Jun-25 16:17:00 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:17:05 - INFO - Trabajo extraído exitosamente: Analista de datos en Evertreen (ID: 4249262759)
+11-Jun-25 16:17:08 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249266285).
+11-Jun-25 16:17:08 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4249266285).
+11-Jun-25 16:17:15 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:17:19 - INFO - Trabajo extraído exitosamente: Data Analyst en Taskify (ID: 4249266285)
+11-Jun-25 16:17:22 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249039969).
+11-Jun-25 16:17:22 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4249039969).
+11-Jun-25 16:17:30 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:17:34 - INFO - Trabajo extraído exitosamente: Data Scientist en Fintech Farm (ID: 4249039969)
+11-Jun-25 16:17:36 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4246562434).
+11-Jun-25 16:17:36 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4246562434).
+11-Jun-25 16:17:44 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:17:48 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en BetterEngineer (ID: 4246562434)
+11-Jun-25 16:17:50 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4233807217).
+11-Jun-25 16:17:50 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4233807217).
+11-Jun-25 16:17:59 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:18:05 - INFO - Trabajo extraído exitosamente: Data Scientist | Merch Algorithms | Pricing Optimization en Stitch Fix (ID: 4233807217)
+11-Jun-25 16:18:08 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4248389553).
+11-Jun-25 16:18:08 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4248389553).
+11-Jun-25 16:18:15 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:18:20 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en Vertisystem (ID: 4248389553)
+11-Jun-25 16:18:23 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247130180).
+11-Jun-25 16:18:23 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247130180).
+11-Jun-25 16:18:30 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:18:35 - INFO - Trabajo extraído exitosamente: Data Scientist I+D en Treelogic (ID: 4247130180)
+11-Jun-25 16:18:37 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247155865).
+11-Jun-25 16:18:37 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247155865).
+11-Jun-25 16:18:44 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:18:49 - INFO - Trabajo extraído exitosamente: Data Scientist en fabbricadigitale (ID: 4247155865)
+11-Jun-25 16:18:52 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4246762940).
+11-Jun-25 16:18:53 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4246762940).
+11-Jun-25 16:19:01 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:19:05 - INFO - Trabajo extraído exitosamente: Lead Data Scientist en iScale Solutions (ID: 4246762940)
+11-Jun-25 16:19:09 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247320755).
+11-Jun-25 16:19:09 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247320755).
+11-Jun-25 16:19:18 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 16:19:23 - INFO - Trabajo extraído exitosamente: Data Scientist and LLM Operations Specialist en Ampstek (ID: 4247320755)
+11-Jun-25 16:19:26 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:19:35 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 2/25. Altura: 945
+11-Jun-25 16:19:49 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:19:49 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:19:49 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:19:58 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 3/25. Altura: 945
+11-Jun-25 16:20:12 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:20:12 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:20:12 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:20:21 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 4/25. Altura: 945
+11-Jun-25 16:20:35 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:20:35 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:20:35 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:20:43 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 5/25. Altura: 945
+11-Jun-25 16:20:56 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:20:56 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:20:56 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:21:05 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 6/25. Altura: 945
+11-Jun-25 16:21:19 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:21:19 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:21:19 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:21:29 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 7/25. Altura: 945
+11-Jun-25 16:21:45 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:21:45 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:21:45 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:21:55 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 8/25. Altura: 945
+11-Jun-25 16:22:09 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:22:09 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:22:09 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:22:18 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 9/25. Altura: 945
+11-Jun-25 16:22:33 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:22:33 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:22:33 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:22:41 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 10/25. Altura: 945
+11-Jun-25 16:22:55 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:22:55 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:22:55 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:23:03 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 11/25. Altura: 945
+11-Jun-25 16:23:17 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:23:17 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:23:17 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:23:17 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:23:17 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:23:17 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:23:17 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:23:17 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:23:17 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:23:17 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:23:18 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:23:26 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 12/25. Altura: 945
+11-Jun-25 16:23:40 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:23:40 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:23:40 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:23:49 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 13/25. Altura: 945
+11-Jun-25 16:24:02 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:24:02 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:24:02 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:24:12 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 14/25. Altura: 945
+11-Jun-25 16:24:26 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:24:26 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:24:26 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:24:34 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 15/25. Altura: 945
+11-Jun-25 16:24:48 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:24:48 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:24:48 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:24:57 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 16/25. Altura: 945
+11-Jun-25 16:25:10 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:25:10 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:25:10 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:25:10 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:25:10 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:25:10 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:25:10 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:25:10 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:25:10 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:25:10 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:25:10 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:25:10 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:25:11 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:25:18 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 17/25. Altura: 945
+11-Jun-25 16:25:33 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:25:33 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:25:33 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:25:42 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 18/25. Altura: 945
+11-Jun-25 16:25:56 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:25:56 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:25:56 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:26:05 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 19/25. Altura: 945
+11-Jun-25 16:26:20 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:26:20 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:26:20 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:26:28 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 20/25. Altura: 945
+11-Jun-25 16:26:42 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:26:42 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 25
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4249085755 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4231868796 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4247198398 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4237698064 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4247334073 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4248330340 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4247140467 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4249040829 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4249037234 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4248370389 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4247306690 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4247324727 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4247165086 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4192143919 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4249053768 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4249262759 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4249266285 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4249039969 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4246562434 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4233807217 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4248389553 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4247130180 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4247155865 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4246762940 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Trabajo con ID 4247320755 ya procesado, saltando.
+11-Jun-25 16:26:42 - INFO - Realizando scroll para cargar más trabajos. Total scrapeados hasta ahora: 25.
+11-Jun-25 16:26:51 - INFO - No se cargaron nuevos elementos al hacer scroll. Intento 21/25. Altura: 945
+11-Jun-25 16:26:58 - ERROR - Error obteniendo las tarjetas de trabajos visibles: Message: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9c8c]
+	(No symbol) [0x0x7ff608a96f6b]
+	(No symbol) [0x0x7ff608a95e2e]
+	(No symbol) [0x0x7ff608abac44]
+	(No symbol) [0x0x7ff608b303c5]
+	(No symbol) [0x0x7ff608b50922]
+	(No symbol) [0x0x7ff608b28743]
+	(No symbol) [0x0x7ff608af14c1]
+	(No symbol) [0x0x7ff608af2253]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	GetHandleVerifier [0x0x7ff608cf8df4+115860]
+	GetHandleVerifier [0x0x7ff608cf8fa9+116297]
+	GetHandleVerifier [0x0x7ff608cdf558+11256]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+
+11-Jun-25 16:26:58 - INFO - Encontradas 13 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 16:26:58 - INFO - Total de tarjetas de trabajo válidas visibles en la página después del scroll: 13
+11-Jun-25 16:26:58 - ERROR - WebDriverException capturada durante la búsqueda de 'Data%20Scientist': Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9e5a]
+	(No symbol) [0x0x7ff608a95c25]
+	(No symbol) [0x0x7ff608abac44]
+	(No symbol) [0x0x7ff608b303c5]
+	(No symbol) [0x0x7ff608b50922]
+	(No symbol) [0x0x7ff608b28743]
+	(No symbol) [0x0x7ff608af14c1]
+	(No symbol) [0x0x7ff608af2253]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	GetHandleVerifier [0x0x7ff608cf8df4+115860]
+	GetHandleVerifier [0x0x7ff608cf8fa9+116297]
+	GetHandleVerifier [0x0x7ff608cdf558+11256]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+. Re-conectando el navegador.
+11-Jun-25 16:27:03 - INFO - LOGUEANDOME A LINKEDIN COMO wegoda2685@adrewire.com...
+11-Jun-25 16:27:14 - ERROR - No se encontró el formulario de login o falló el clic.
+11-Jun-25 16:27:14 - ERROR - Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9e5a]
+	(No symbol) [0x0x7ff608a95c25]
+	(No symbol) [0x0x7ff608abac44]
+	(No symbol) [0x0x7ff608b303c5]
+	(No symbol) [0x0x7ff608b50922]
+	(No symbol) [0x0x7ff608b28743]
+	(No symbol) [0x0x7ff608af14c1]
+	(No symbol) [0x0x7ff608af2253]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	GetHandleVerifier [0x0x7ff608cf8df4+115860]
+	GetHandleVerifier [0x0x7ff608cf8fa9+116297]
+	GetHandleVerifier [0x0x7ff608cdf558+11256]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+
+11-Jun-25 16:27:14 - CRITICAL - Error crítico en el script principal: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9e5a]
+	(No symbol) [0x0x7ff608a95c25]
+	(No symbol) [0x0x7ff608abac44]
+	(No symbol) [0x0x7ff608b303c5]
+	(No symbol) [0x0x7ff608b50922]
+	(No symbol) [0x0x7ff608b28743]
+	(No symbol) [0x0x7ff608af14c1]
+	(No symbol) [0x0x7ff608af2253]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	GetHandleVerifier [0x0x7ff608cf8df4+115860]
+	GetHandleVerifier [0x0x7ff608cf8fa9+116297]
+	GetHandleVerifier [0x0x7ff608cdf558+11256]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+
+11-Jun-25 16:27:14 - INFO - Cerrando el navegador.
+11-Jun-25 16:27:18 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C5FC607050>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/cd93afa845070dd0d61ab921954af5c8
+11-Jun-25 16:27:22 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C5FC606ED0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/cd93afa845070dd0d61ab921954af5c8
+11-Jun-25 16:27:28 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C5FC644980>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/cd93afa845070dd0d61ab921954af5c8

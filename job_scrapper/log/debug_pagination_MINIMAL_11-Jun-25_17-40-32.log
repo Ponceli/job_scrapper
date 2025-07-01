@@ -1,0 +1,9 @@
+11-Jun-25 17:40:32 - INFO - Log file log\debug_pagination_MINIMAL_11-Jun-25_17-40-32.log created for minimal pagination debugging.
+11-Jun-25 17:40:33 - INFO - LOGUEANDOME A LINKEDIN COMO wegoda2685@adrewire.com...
+11-Jun-25 17:40:50 - INFO - Login completado.
+11-Jun-25 17:40:50 - INFO - Navegación exitosa a la página principal después del login.
+11-Jun-25 17:41:08 - INFO - Navegando a la URL de búsqueda inicial para depuración: https://www.linkedin.com/jobs/search/?keywords=Python%20Developer&location=Spain&start=0
+11-Jun-25 17:41:23 - INFO - URL actual después de la navegación: https://www.linkedin.com/jobs/search/?currentJobId=4246219942&keywords=Python%20Developer&location=Spain
+11-Jun-25 17:41:53 - ERROR - ¡ERROR CRÍTICO! Timeout esperando el contenedor de la lista de resultados de la búsqueda. No podemos continuar la depuración sin esto.
+11-Jun-25 17:41:53 - INFO - Cerrando el navegador después de la depuración de paginación.
+11-Jun-25 17:41:56 - INFO - Proceso de depuración de paginación completado.

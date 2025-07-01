@@ -1,0 +1,37 @@
+[
+  {
+    "id": "", //"ID de la publicación",
+    "input": "", //"LINKEDIN/INDEED/..",
+    "empresa": "", //"Nombre de la empresa",
+    "titulo": "", //"el nombre de la publicación",
+    "descripcion": "", //"el nombre de la publicación",
+    "url": "" //"url de la publicación"
+  },
+  {
+    "id": "12345",
+    "input": "LINKEDIN",
+    "empresa": "Tech Innovations Inc.",
+    "titulo": "Software Engineer",
+    "descripcion": "We are looking for a skilled software engineer to join our team.",
+    "url": "https://www.linkedin.com/jobs/view/12345"
+  },
+  {
+    "id": "67890",
+    "location": "Philadelfia/CO",
+    "date_postulation": "YY/MM/DD/HH,UTF",
+    "applicants": "76(Solo numero)",
+    "salary": "50 US$/h - 60 US$/h ",
+    "job_type": "En remoto",
+    "job_time": "Full time",
+    "difficulty_position": "intermedio",
+    "skills": "[Ciencia de datos, Google BigQuery, Google Cloud, Tekton CI/CD]",
+    "requirement": "[Con permiso de trabajo para Estados Unidos,Más de 5 años de experiencia en Google Cloud,Máster]",
+    "user_post": "https://www.linkedin.com/in/samantha-c-078b31174/ (copiar url de la persona que postea)",
+    "input": "INDEED",
+    "empresa": "Global Solutions Ltd.",
+    "url_empresa": "https://www.linkedin.com/company/insight-global/life",
+    "titulo": "Data Analyst",
+    "descripcion": "Seeking a data analyst with experience in big data technologies.",
+    "url": "https://www.indeed.com/viewjob?jk=67890"
+  }
+]

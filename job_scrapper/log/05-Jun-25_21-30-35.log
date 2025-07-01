@@ -1,0 +1,30 @@
+05-Jun-25 21:30:35 - INFO - Log file log\05-Jun-25_21-30-35.log created
+05-Jun-25 21:30:35 - INFO - output/05-Jun-25_linkedin_jobs.csv borrado
+05-Jun-25 21:30:35 - INFO - output/05-Jun-25_linkedin_jobs.csv Creado
+05-Jun-25 21:30:36 - INFO - LOGUEANDOME A LINKEDIN COMO kideve4885@cigidea.com...
+05-Jun-25 21:31:47 - INFO - Login completado.
+05-Jun-25 21:31:47 - CRITICAL - Error crítico en el script principal: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7c8ecfea5+79173]
+	GetHandleVerifier [0x0x7ff7c8ecff00+79264]
+	(No symbol) [0x0x7ff7c8c89e5a]
+	(No symbol) [0x0x7ff7c8c620f1]
+	(No symbol) [0x0x7ff7c8d1017e]
+	(No symbol) [0x0x7ff7c8d30922]
+	(No symbol) [0x0x7ff7c8d08743]
+	(No symbol) [0x0x7ff7c8cd14c1]
+	(No symbol) [0x0x7ff7c8cd2253]
+	GetHandleVerifier [0x0x7ff7c919a2dd+3004797]
+	GetHandleVerifier [0x0x7ff7c919472d+2981325]
+	GetHandleVerifier [0x0x7ff7c91b3380+3107360]
+	GetHandleVerifier [0x0x7ff7c8eeaa2e+188622]
+	GetHandleVerifier [0x0x7ff7c8ef22bf+219487]
+	GetHandleVerifier [0x0x7ff7c8ed8df4+115860]
+	GetHandleVerifier [0x0x7ff7c8ed8fa9+116297]
+	GetHandleVerifier [0x0x7ff7c8ebf558+11256]
+	BaseThreadInitThunk [0x0x7ffae037257d+29]
+	RtlUserThreadStart [0x0x7ffae0ccaf08+40]
+
+05-Jun-25 21:31:47 - INFO - Proceso completado.

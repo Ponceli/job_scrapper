@@ -1,0 +1,110 @@
+11-Jun-25 17:05:50 - INFO - Log file log\11-Jun-25_17-05-50.log created
+11-Jun-25 17:05:50 - INFO - output/11-Jun-25_linkedin_jobs.csv borrado
+11-Jun-25 17:05:50 - INFO - output/11-Jun-25_linkedin_jobs.csv Creado
+11-Jun-25 17:05:52 - INFO - LOGUEANDOME A LINKEDIN COMO wegoda2685@adrewire.com...
+11-Jun-25 17:06:10 - INFO - Login completado.
+11-Jun-25 17:06:10 - INFO - Navegación exitosa a la página principal después del login.
+11-Jun-25 17:06:28 - INFO - Iniciando búsqueda para: Keyword='Data%20Scientist', Ubicación='Spain', Remoto='true', Publicado='r86400'
+11-Jun-25 17:06:28 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=Data%20Scientist&location=Spain&start=0
+11-Jun-25 17:06:42 - INFO - URL actual después de la navegación: https://www.linkedin.com/jobs/search/?currentJobId=4249085755&f_TPR=r86400&f_WT=2&geoId=92000000&keywords=Data%20Scientist&location=Spain
+11-Jun-25 17:06:42 - INFO - Lista de resultados de búsqueda inicial encontrada y visible.
+11-Jun-25 17:06:45 - WARNING - No se pudo obtener el conteo de resultados inicial. Intentando selectores alternativos o asumiendo un conteo bajo.
+11-Jun-25 17:06:45 - WARNING - No se pudo obtener el conteo de resultados con selectores alternativos. Asumiendo 0 para continuar.
+11-Jun-25 17:06:45 - INFO - Iniciando scraping para 'Data%20Scientist' en 'Spain' (0 resultados totales esperados)...
+11-Jun-25 17:06:45 - INFO - --- Procesando Página 1 de un máximo de 3 ---
+11-Jun-25 17:06:58 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+11-Jun-25 17:06:58 - INFO - Total de tarjetas de trabajo válidas visibles en la página 1: 25
+11-Jun-25 17:06:58 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249085755).
+11-Jun-25 17:06:58 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4249085755).
+11-Jun-25 17:07:04 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:07:10 - INFO - Trabajo extraído exitosamente: Data Scientist with ML en AllianceIT Inc (ID: 4249085755)
+11-Jun-25 17:07:12 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247348554).
+11-Jun-25 17:07:13 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247348554).
+11-Jun-25 17:07:19 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:07:23 - INFO - Trabajo extraído exitosamente: Data Scientist en Holcim ADC (ID: 4247348554)
+11-Jun-25 17:07:25 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4231868796).
+11-Jun-25 17:07:25 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4231868796).
+11-Jun-25 17:07:33 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:07:39 - INFO - Trabajo extraído exitosamente: Data Scientist (L5) - Customer Service en Netflix (ID: 4231868796)
+11-Jun-25 17:07:42 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247198398).
+11-Jun-25 17:07:42 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247198398).
+11-Jun-25 17:07:51 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:07:56 - INFO - Trabajo extraído exitosamente: Data Scientist (L5) - Customer Service en Netflix (ID: 4247198398)
+11-Jun-25 17:07:59 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4237698064).
+11-Jun-25 17:07:59 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4237698064).
+11-Jun-25 17:08:07 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:08:12 - INFO - Trabajo extraído exitosamente: Lead Data Scientist en Candid (ID: 4237698064)
+11-Jun-25 17:08:14 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247334073).
+11-Jun-25 17:08:14 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247334073).
+11-Jun-25 17:08:21 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:08:25 - INFO - Trabajo extraído exitosamente: Staff Data Scientist en Capital Rx (ID: 4247334073)
+11-Jun-25 17:08:29 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247140467).
+11-Jun-25 17:08:29 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247140467).
+11-Jun-25 17:08:38 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:08:44 - INFO - Trabajo extraído exitosamente: Data Scientist / Analytical Analyst en Ambition (ID: 4247140467)
+11-Jun-25 17:08:47 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249040829).
+11-Jun-25 17:08:47 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4249040829).
+11-Jun-25 17:08:55 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:08:59 - INFO - Trabajo extraído exitosamente: Quality Insights Lead en Airbnb (ID: 4249040829)
+11-Jun-25 17:09:03 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247347581).
+11-Jun-25 17:09:03 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247347581).
+11-Jun-25 17:09:12 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:09:17 - INFO - Trabajo extraído exitosamente: Lead Data Scientist en Insight Global (ID: 4247347581)
+11-Jun-25 17:09:21 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249037234).
+11-Jun-25 17:09:21 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4249037234).
+11-Jun-25 17:09:29 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:09:34 - INFO - Trabajo extraído exitosamente: FBS - Data Scientist I en Capgemini (ID: 4249037234)
+11-Jun-25 17:09:36 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4248370389).
+11-Jun-25 17:09:36 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4248370389).
+11-Jun-25 17:09:44 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:09:48 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en Harnham (ID: 4248370389)
+11-Jun-25 17:09:52 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247324727).
+11-Jun-25 17:09:52 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247324727).
+11-Jun-25 17:09:59 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:10:04 - INFO - Trabajo extraído exitosamente: Data Scientist | Python | Natural Language Processing | Large Language Models | Machine Learning | Remote, US en Enigma (ID: 4247324727)
+11-Jun-25 17:10:08 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247165086).
+11-Jun-25 17:10:08 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4247165086).
+11-Jun-25 17:10:18 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:10:24 - INFO - Trabajo extraído exitosamente: Senior Data Scientist (US Time Zone) en TalenTown \u0130nsan Kaynaklar\u0131 - \u0130\u015fe Al\u0131m Ajans\u0131 (ID: 4247165086)
+11-Jun-25 17:10:27 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4192143919).
+11-Jun-25 17:10:28 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4192143919).
+11-Jun-25 17:10:37 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:10:43 - INFO - Trabajo extraído exitosamente: Senior Data Scientist - Guide en Included Health (ID: 4192143919)
+11-Jun-25 17:10:47 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249053768).
+11-Jun-25 17:10:47 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4249053768).
+11-Jun-25 17:10:54 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:10:59 - INFO - Trabajo extraído exitosamente: Data Annotator (Math & Coding) en micro1 (ID: 4249053768)
+11-Jun-25 17:11:01 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249266285).
+11-Jun-25 17:11:01 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4249266285).
+11-Jun-25 17:11:10 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:11:16 - INFO - Trabajo extraído exitosamente: Data Analyst en Taskify (ID: 4249266285)
+11-Jun-25 17:11:19 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4249039969).
+11-Jun-25 17:11:19 - INFO - Haciendo clic en la tarjeta del trabajo (ID: 4249039969).
+11-Jun-25 17:11:28 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+11-Jun-25 17:11:34 - INFO - Trabajo extraído exitosamente: Data Scientist en Fintech Farm (ID: 4249039969)
+11-Jun-25 17:11:38 - ERROR - WebDriverException capturada durante la búsqueda de 'Data%20Scientist': Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff608cefea5+79173]
+	GetHandleVerifier [0x0x7ff608ceff00+79264]
+	(No symbol) [0x0x7ff608aa9e5a]
+	(No symbol) [0x0x7ff608a95c25]
+	(No symbol) [0x0x7ff608abac44]
+	(No symbol) [0x0x7ff608b303c5]
+	(No symbol) [0x0x7ff608b50922]
+	(No symbol) [0x0x7ff608b28743]
+	(No symbol) [0x0x7ff608af14c1]
+	(No symbol) [0x0x7ff608af2253]
+	GetHandleVerifier [0x0x7ff608fba2dd+3004797]
+	GetHandleVerifier [0x0x7ff608fb472d+2981325]
+	GetHandleVerifier [0x0x7ff608fd3380+3107360]
+	GetHandleVerifier [0x0x7ff608d0aa2e+188622]
+	GetHandleVerifier [0x0x7ff608d122bf+219487]
+	GetHandleVerifier [0x0x7ff608cf8df4+115860]
+	GetHandleVerifier [0x0x7ff608cf8fa9+116297]
+	GetHandleVerifier [0x0x7ff608cdf558+11256]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+. Re-conectando el navegador.
+11-Jun-25 17:11:43 - INFO - LOGUEANDOME A LINKEDIN COMO wegoda2685@adrewire.com...

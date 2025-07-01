@@ -1,0 +1,32 @@
+05-Jun-25 21:08:48 - INFO - Log file log\05-Jun-25_21-08-48.log created
+05-Jun-25 21:08:48 - INFO - output/05-Jun-25_linkedin_jobs.csv borrado
+05-Jun-25 21:08:48 - INFO - output/05-Jun-25_linkedin_jobs.csv Creado
+05-Jun-25 21:08:49 - INFO - LOGUEANDOME A LINKEDIN COMO kideve4885@cigidea.com...
+05-Jun-25 21:09:06 - INFO - Login completado.
+05-Jun-25 21:09:06 - INFO - Navegación exitosa a la página principal después del login.
+05-Jun-25 21:09:21 - INFO - Iniciando búsqueda para: Keyword='Data%20Scientist', Ubicación='Spain', Remoto='true', Publicado='r86400'
+05-Jun-25 21:09:21 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=Data%20Scientist&location=Spain&start=0
+05-Jun-25 21:10:24 - ERROR - ¡ERROR CRÍTICO! Timeout esperando la lista de resultados de la búsqueda. La página no cargó la lista principal o no es visible.
+05-Jun-25 21:10:24 - INFO - Iniciando búsqueda para: Keyword='Data%20Engineer', Ubicación='Spain', Remoto='true', Publicado='r86400'
+05-Jun-25 21:10:24 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=Data%20Engineer&location=Spain&start=0
+05-Jun-25 21:11:28 - ERROR - ¡ERROR CRÍTICO! Timeout esperando la lista de resultados de la búsqueda. La página no cargó la lista principal o no es visible.
+05-Jun-25 21:11:28 - INFO - Iniciando búsqueda para: Keyword='Python%20Developer', Ubicación='Spain', Remoto='true', Publicado='r86400'
+05-Jun-25 21:11:28 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=Python%20Developer&location=Spain&start=0
+05-Jun-25 21:12:30 - ERROR - ¡ERROR CRÍTICO! Timeout esperando la lista de resultados de la búsqueda. La página no cargó la lista principal o no es visible.
+05-Jun-25 21:12:30 - INFO - Iniciando búsqueda para: Keyword='Scrum%20Master', Ubicación='Spain', Remoto='true', Publicado='r86400'
+05-Jun-25 21:12:30 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=Scrum%20Master&location=Spain&start=0
+05-Jun-25 21:13:30 - ERROR - ¡ERROR CRÍTICO! Timeout esperando la lista de resultados de la búsqueda. La página no cargó la lista principal o no es visible.
+05-Jun-25 21:13:30 - INFO - Iniciando búsqueda para: Keyword='Product%20Manager', Ubicación='Spain', Remoto='true', Publicado='r86400'
+05-Jun-25 21:13:30 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=Product%20Manager&location=Spain&start=0
+05-Jun-25 21:14:38 - ERROR - ¡ERROR CRÍTICO! Timeout esperando la lista de resultados de la búsqueda. La página no cargó la lista principal o no es visible.
+05-Jun-25 21:14:38 - INFO - Iniciando búsqueda para: Keyword='Ingeniero%20de%20Sistemas', Ubicación='Rubio', Remoto='false', Publicado='r2592000'
+05-Jun-25 21:14:38 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r2592000&f_WRA=false&geoId=92000000&keywords=Ingeniero%20de%20Sistemas&location=Rubio&start=0
+05-Jun-25 21:15:44 - ERROR - ¡ERROR CRÍTICO! Timeout esperando la lista de resultados de la búsqueda. La página no cargó la lista principal o no es visible.
+05-Jun-25 21:15:44 - INFO - Iniciando búsqueda para: Keyword='Desarrollador%20Web', Ubicación='Caracas', Remoto='true', Publicado='r604800'
+05-Jun-25 21:15:44 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r604800&f_WRA=true&geoId=92000000&keywords=Desarrollador%20Web&location=Caracas&start=0
+05-Jun-25 21:16:52 - ERROR - ¡ERROR CRÍTICO! Timeout esperando la lista de resultados de la búsqueda. La página no cargó la lista principal o no es visible.
+05-Jun-25 21:16:52 - INFO - Iniciando búsqueda para: Keyword='Analista%20de%20datos', Ubicación='Bogota', Remoto='false', Publicado='r604800'
+05-Jun-25 21:16:52 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r604800&f_WRA=false&geoId=92000000&keywords=Analista%20de%20datos&location=Bogota&start=0
+05-Jun-25 21:18:10 - ERROR - ¡ERROR CRÍTICO! Timeout esperando la lista de resultados de la búsqueda. La página no cargó la lista principal o no es visible.
+05-Jun-25 21:18:10 - INFO - Cerrando el navegador.
+05-Jun-25 21:18:12 - INFO - Proceso completado.

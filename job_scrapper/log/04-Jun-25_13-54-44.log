@@ -1,0 +1,37 @@
+04-Jun-25 13:54:44 - INFO - Log file log\04-Jun-25_13-54-44.log created
+04-Jun-25 13:54:44 - INFO - output/04-Jun-25.csv borrado
+04-Jun-25 13:54:44 - INFO - output/04-Jun-25.csv Creado
+04-Jun-25 13:54:47 - INFO - LOGUEANDOME A LINKEDIN COMO badag85383@jeanssi.com...
+04-Jun-25 13:54:57 - INFO - Login completado.
+04-Jun-25 13:54:57 - INFO - === Iniciando búsqueda para: Data Analyst ===
+04-Jun-25 13:54:57 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=data%20analyst&location=Worldwide&start=0
+04-Jun-25 13:55:34 - ERROR - ¡ERROR CRÍTICO! Timeout esperando la lista de resultados de la búsqueda. La página no cargó la lista principal.
+04-Jun-25 13:55:34 - INFO - === Búsqueda completada para: Data Analyst. Total scrapeados: 0 ===
+04-Jun-25 13:55:44 - INFO - === Iniciando búsqueda para: Data Scientist ===
+04-Jun-25 13:55:44 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=data%20scientist&location=Worldwide&start=0
+04-Jun-25 13:55:50 - ERROR - Error general en el script principal: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff66fe4fea5+79173]
+	GetHandleVerifier [0x0x7ff66fe4ff00+79264]
+	(No symbol) [0x0x7ff66fc09e5a]
+	(No symbol) [0x0x7ff66fbf5c25]
+	(No symbol) [0x0x7ff66fc1ac44]
+	(No symbol) [0x0x7ff66fc903c5]
+	(No symbol) [0x0x7ff66fcb0922]
+	(No symbol) [0x0x7ff66fc88743]
+	(No symbol) [0x0x7ff66fc514c1]
+	(No symbol) [0x0x7ff66fc52253]
+	GetHandleVerifier [0x0x7ff67011a2dd+3004797]
+	GetHandleVerifier [0x0x7ff67011472d+2981325]
+	GetHandleVerifier [0x0x7ff670133380+3107360]
+	GetHandleVerifier [0x0x7ff66fe6aa2e+188622]
+	GetHandleVerifier [0x0x7ff66fe722bf+219487]
+	GetHandleVerifier [0x0x7ff66fe58df4+115860]
+	GetHandleVerifier [0x0x7ff66fe58fa9+116297]
+	GetHandleVerifier [0x0x7ff66fe3f558+11256]
+	BaseThreadInitThunk [0x0x7ff85342257d+29]
+	RtlUserThreadStart [0x0x7ff85494af08+40]
+
+04-Jun-25 13:55:52 - INFO - Driver cerrado correctamente.

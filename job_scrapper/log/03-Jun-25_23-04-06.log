@@ -1,0 +1,30 @@
+03-Jun-25 23:04:06 - INFO - Log file log\03-Jun-25_23-04-06.log created
+03-Jun-25 23:04:06 - INFO - output/03-Jun-25.csv borrado
+03-Jun-25 23:04:06 - INFO - output/03-Jun-25.csv Creado
+03-Jun-25 23:04:08 - INFO - LOGUEANDOME A LINKEDIN COMO badag85383@jeanssi.com...
+03-Jun-25 23:04:20 - ERROR - No se encontró el formulario de login.
+03-Jun-25 23:04:20 - ERROR - Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.68)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff72182fea5+79173]
+	GetHandleVerifier [0x0x7ff72182ff00+79264]
+	(No symbol) [0x0x7ff7215e9e5a]
+	(No symbol) [0x0x7ff7215d5c25]
+	(No symbol) [0x0x7ff7215fac44]
+	(No symbol) [0x0x7ff7216703c5]
+	(No symbol) [0x0x7ff721690922]
+	(No symbol) [0x0x7ff721668743]
+	(No symbol) [0x0x7ff7216314c1]
+	(No symbol) [0x0x7ff721632253]
+	GetHandleVerifier [0x0x7ff721afa2dd+3004797]
+	GetHandleVerifier [0x0x7ff721af472d+2981325]
+	GetHandleVerifier [0x0x7ff721b13380+3107360]
+	GetHandleVerifier [0x0x7ff72184aa2e+188622]
+	GetHandleVerifier [0x0x7ff7218522bf+219487]
+	GetHandleVerifier [0x0x7ff721838df4+115860]
+	GetHandleVerifier [0x0x7ff721838fa9+116297]
+	GetHandleVerifier [0x0x7ff72181f558+11256]
+	BaseThreadInitThunk [0x0x7ffd586ce8d7+23]
+	RtlUserThreadStart [0x0x7ffd59c3c5dc+44]
+

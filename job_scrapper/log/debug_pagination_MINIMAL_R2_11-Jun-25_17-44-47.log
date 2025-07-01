@@ -1,0 +1,12 @@
+11-Jun-25 17:44:47 - INFO - Log file log\debug_pagination_MINIMAL_R2_11-Jun-25_17-44-47.log created for minimal pagination debugging (Revision 2).
+11-Jun-25 17:44:48 - INFO - LOGUEANDOME A LINKEDIN COMO wegoda2685@adrewire.com...
+11-Jun-25 17:45:05 - INFO - Login completado.
+11-Jun-25 17:45:05 - INFO - Navegación exitosa a la página principal después del login.
+11-Jun-25 17:45:18 - INFO - Navegando a la URL de búsqueda inicial para depuración: https://www.linkedin.com/jobs/search/?keywords=Python%20Developer&location=Spain&start=0
+11-Jun-25 17:45:34 - INFO - URL actual después de la navegación: https://www.linkedin.com/jobs/search/?currentJobId=4246219942&keywords=Python%20Developer&location=Spain
+11-Jun-25 17:45:34 - INFO - Primeras tarjetas de resultados de búsqueda encontradas y visibles.
+11-Jun-25 17:45:37 - INFO - --- Intentando pasar a la página 2 ---
+11-Jun-25 17:45:53 - INFO - No se encontró el botón de la página 2 en el tiempo esperado. Posiblemente hemos llegado a la última página de resultados o el selector no es el correcto.
+11-Jun-25 17:45:53 - INFO - Depuración de paginación completada. Última página intentada con éxito: 1.
+11-Jun-25 17:45:53 - INFO - Cerrando el navegador después de la depuración de paginación.
+11-Jun-25 17:45:55 - INFO - Proceso de depuración de paginación completado.
