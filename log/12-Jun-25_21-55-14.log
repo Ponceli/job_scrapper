@@ -1,0 +1,48 @@
+12-Jun-25 21:55:14 - INFO - Log file log\12-Jun-25_21-55-14.log created
+12-Jun-25 21:55:14 - INFO - output/12-Jun-25_linkedin_jobs.csv borrado
+12-Jun-25 21:55:14 - INFO - output/12-Jun-25_linkedin_jobs.csv Creado
+1212-Jun-25 21:55:27 - INFO - LOGUEANDOME A LINKEDIN COMO wegoda2685@adrewire.com...12-Jun-25 21:55:41 - INFO - Login completado.
+12-Jun-25 21:56:08 - CRITICAL - Error crítico en el script principal: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))
+12-Jun-25 21:56:08 - INFO - No se extrajeron trabajos para guardar en JSON.
+12-Jun-25 21:56:08 - INFO - Proceso completado.
+(No symbol) [0x0x7ff63cc19e5a]
+	(No symbol) [0x0x7ff63cc05c25]
+	(No symbol) [0x0x7ff63cc2ac44]
+	(No symbol) [0x0x7ff63cca03c5]
+	(No symbol) [0x0x7ff63ccc0922]
+	(No symbol) [0x0x7ff63cc98743]
+	(No symbol) [0x0x7ff63cc614c1]
+	(No symbol) [0x0x7ff63cc62253]
+	GetHandleVerifier [0x0x7ff63d12a2dd+3004797]
+	GetHandleVerifier [0x0x7ff63d12472d+2981325]
+	GetHandleVerifier [0x0x7ff63d143380+3107360]
+	GetHandleVerifier [0x0x7ff63ce7aa2e+188622]
+	GetHandleVerifier [0x0x7ff63ce822bf+219487]
+	GetHandleVerifier [0x0x7ff63ce68df4+115860]
+	GetHandleVerifier [0x0x7ff63ce68fa9+116297]
+	GetHandleVerifier [0x0x7ff63ce4f558+11256]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+
+12-Jun-25 21:55:36 - CRITICAL - Error crítico en el script principal: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63ce5fea5+79173]
+	GetHandleVerifier [0x0x7ff63ce5ff00+79264]
+	(No symbol) [0x0x7ff63cc19c8c]
+	(No symbol) [0x0x7ff63cc605ef]
+	(No symbol) [0x0x7ff63cc98832]
+	(No symbol) [0x0x7ff63cc93233]
+	(No symbol) [0x0x7ff63cc922f9]
+	(No symbol) [0x0x7ff63cbe5fc5]
+	GetHandleVerifier [0x0x7ff63d12a2dd+3004797]
+	GetHandleVerifier [0x0x7ff63d12472d+2981325]
+	GetHandleVerifier [0x0x7ff63d143380+3107360]
+	GetHandleVerifier [0x0x7ff63ce7aa2e+188622]
+	GetHandleVerifier [0x0x7ff63ce822bf+219487]
+	(No symbol) [0x0x7ff63cbe5036]
+	GetHandleVerifier [0x0x7ff63d243c78+4158232]
+	BaseThreadInitThunk [0x0x7ffc82a3257d+29]
+	RtlUserThreadStart [0x0x7ffc842caf08+40]
+
+12-Jun-25 21:55:36 - INFO - No se extrajeron trabajos para guardar en JSON.
+12-Jun-25 21:55:36 - INFO - Proceso completado.

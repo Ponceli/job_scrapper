@@ -1,0 +1,221 @@
+24-Jun-25 16:22:35 - INFO - Archivo de log log\24-Jun-25_16-22-35.log creado y configurado.
+24-Jun-25 16:22:35 - INFO - output\linkedin_jobs.csv borrado para una nueva ejecución.
+24-Jun-25 16:22:35 - INFO - Archivo CSV 'output\linkedin_jobs.csv' creado con éxito.
+24-Jun-25 16:22:36 - INFO - Iniciando sesión en LinkedIn como mirek21473@kimdyn.com...
+24-Jun-25 16:23:00 - INFO - Login: Credenciales enviadas.
+24-Jun-25 16:23:00 - INFO - Login: Navegación exitosa a la página principal después del login.
+24-Jun-25 16:23:17 - INFO - Iniciando scraping para palabra clave: 'Analista de Datos' en ubicación: 'España'
+24-Jun-25 16:23:17 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=2592000000&f_WRA=true&geoId=92000000&keywords=Analista de Datos&location=España&start=0
+24-Jun-25 16:23:38 - INFO - URL actual después de la navegación: https://www.linkedin.com/jobs/search/?currentJobId=4255315046&f_TPR=2592000000&f_WT=2&geoId=92000000&keywords=Analista%20de%20Datos&location=Espa%C3%B1a
+24-Jun-25 16:23:38 - INFO - Lista de resultados de búsqueda inicial encontrada y visible.
+24-Jun-25 16:23:41 - WARNING - No se pudo obtener el conteo de resultados inicial. Intentando selectores alternativos o asumiendo un conteo bajo.
+24-Jun-25 16:23:41 - WARNING - No se pudo obtener el conteo de resultados con selectores alternativos. Asumiendo 0 para continuar.
+24-Jun-25 16:23:41 - INFO - Iniciando scraping para 'Analista de Datos' en 'España' (0 resultados totales esperados)...
+24-Jun-25 16:23:41 - INFO - --- Procesando Página 1 de un máximo de 3 ---
+24-Jun-25 16:23:50 - INFO - Encontradas 25 tarjetas de trabajos válidas y visibles en la página.
+24-Jun-25 16:23:50 - INFO - Total de tarjetas de trabajo válidas visibles en la página 1: 25
+24-Jun-25 16:23:50 - INFO - Procesando trabajo 1/25 (ID: 4255315046).
+24-Jun-25 16:23:50 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255315046).
+24-Jun-25 16:24:00 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:24:05 - INFO - Trabajo extraído exitosamente: 'Sr. Data Analyst' en 'Gravity IT Resources' (ID: 4255315046)
+24-Jun-25 16:24:12 - INFO - Procesando trabajo 2/25 (ID: 4255246733).
+24-Jun-25 16:24:12 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255246733).
+24-Jun-25 16:24:20 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:24:26 - INFO - Trabajo extraído exitosamente: 'Sr. Data Analyst' en 'Gravity IT Resources' (ID: 4255246733)
+24-Jun-25 16:24:29 - INFO - Procesando trabajo 3/25 (ID: 4237489490).
+24-Jun-25 16:24:29 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4237489490).
+24-Jun-25 16:24:37 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:24:42 - INFO - Trabajo extraído exitosamente: 'Data Analyst' en 'Good Giant' (ID: 4237489490)
+24-Jun-25 16:24:45 - INFO - Procesando trabajo 4/25 (ID: 4251542008).
+24-Jun-25 16:24:46 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4251542008).
+24-Jun-25 16:24:54 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:24:58 - INFO - Trabajo extraído exitosamente: 'Data Analyst (Contract | Full Time)' en 'BiggerPockets' (ID: 4251542008)
+24-Jun-25 16:25:02 - INFO - Procesando trabajo 5/25 (ID: 4245584842).
+24-Jun-25 16:25:02 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4245584842).
+24-Jun-25 16:25:11 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:25:15 - INFO - Trabajo extraído exitosamente: 'Senior Data Analyst' en 'INSPYR Solutions' (ID: 4245584842)
+24-Jun-25 16:25:19 - INFO - Procesando trabajo 6/25 (ID: 4256052384).
+24-Jun-25 16:25:19 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4256052384).
+24-Jun-25 16:25:29 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:25:34 - INFO - Trabajo extraído exitosamente: 'Data Analyst (Medical Data)' en 'Wiraa' (ID: 4256052384)
+24-Jun-25 16:25:37 - INFO - Procesando trabajo 7/25 (ID: 4247904856).
+24-Jun-25 16:25:37 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247904856).
+24-Jun-25 16:25:45 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:25:50 - INFO - Trabajo extraído exitosamente: 'Data Analyst' en 'Confidential' (ID: 4247904856)
+24-Jun-25 16:25:52 - INFO - Procesando trabajo 8/25 (ID: 4252676518).
+24-Jun-25 16:25:53 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4252676518).
+24-Jun-25 16:26:03 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:26:07 - WARNING - No se encontró el nombre de la empresa para ID 4252676518.
+24-Jun-25 16:26:07 - INFO - Trabajo extraído exitosamente: 'Senior Data Analyst: 100% remote [32334]' en '' (ID: 4252676518)
+24-Jun-25 16:26:09 - INFO - Procesando trabajo 9/25 (ID: 4252666961).
+24-Jun-25 16:26:10 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4252666961).
+24-Jun-25 16:26:18 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:26:23 - INFO - Trabajo extraído exitosamente: 'Business Intelligence Analyst' en 'Practicus' (ID: 4252666961)
+24-Jun-25 16:26:26 - INFO - Procesando trabajo 10/25 (ID: 4248919821).
+24-Jun-25 16:26:26 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4248919821).
+24-Jun-25 16:26:34 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:26:39 - INFO - Trabajo extraído exitosamente: 'Data Analyst' en 'Facebook' (ID: 4248919821)
+24-Jun-25 16:26:43 - INFO - Procesando trabajo 11/25 (ID: 4240671962).
+24-Jun-25 16:26:43 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4240671962).
+24-Jun-25 16:26:51 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:26:57 - INFO - Trabajo extraído exitosamente: 'Analista de datos' en 'SIALBÉ' (ID: 4240671962)
+24-Jun-25 16:27:01 - INFO - Procesando trabajo 12/25 (ID: 4247941516).
+24-Jun-25 16:27:01 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4247941516).
+24-Jun-25 16:27:09 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:27:13 - INFO - Trabajo extraído exitosamente: 'Senior Data Analyst' en 'Warman O'Brien' (ID: 4247941516)
+24-Jun-25 16:27:16 - INFO - Procesando trabajo 13/25 (ID: 4253920900).
+24-Jun-25 16:27:16 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4253920900).
+24-Jun-25 16:27:25 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:27:30 - INFO - Trabajo extraído exitosamente: 'Senior Data Analyst' en 'Smith Johnson Tech' (ID: 4253920900)
+24-Jun-25 16:27:34 - INFO - Procesando trabajo 14/25 (ID: 4255582961).
+24-Jun-25 16:27:34 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255582961).
+24-Jun-25 16:27:43 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:27:48 - INFO - Trabajo extraído exitosamente: 'Data Services Analyst, Entry Level' en 'Jobright.ai' (ID: 4255582961)
+24-Jun-25 16:27:51 - INFO - Procesando trabajo 15/25 (ID: 4251676691).
+24-Jun-25 16:27:51 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4251676691).
+24-Jun-25 16:28:01 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:28:06 - INFO - Trabajo extraído exitosamente: 'Data Analyst' en 'Rapid Talent Group' (ID: 4251676691)
+24-Jun-25 16:28:10 - INFO - Procesando trabajo 16/25 (ID: 4231162343).
+24-Jun-25 16:28:10 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4231162343).
+24-Jun-25 16:28:17 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:28:23 - INFO - Trabajo extraído exitosamente: 'People Analytics Analyst (Remote - US)' en 'Jobgether' (ID: 4231162343)
+24-Jun-25 16:28:27 - INFO - Procesando trabajo 17/25 (ID: 4256062661).
+24-Jun-25 16:28:27 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4256062661).
+24-Jun-25 16:28:37 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:28:41 - INFO - Trabajo extraído exitosamente: 'Data Analyst' en 'micro1' (ID: 4256062661)
+24-Jun-25 16:28:44 - INFO - Procesando trabajo 18/25 (ID: 4255906503).
+24-Jun-25 16:28:44 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255906503).
+24-Jun-25 16:28:52 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:28:58 - INFO - Trabajo extraído exitosamente: 'Clinical Data Analyst' en 'I3 INFOTEK INC' (ID: 4255906503)
+24-Jun-25 16:29:00 - INFO - Procesando trabajo 19/25 (ID: 4255701272).
+24-Jun-25 16:29:00 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255701272).
+24-Jun-25 16:29:10 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:29:14 - WARNING - No se encontró el nombre de la empresa para ID 4255701272.
+24-Jun-25 16:29:15 - INFO - Trabajo extraído exitosamente: 'Senior Data Analyst' en '' (ID: 4255701272)
+24-Jun-25 16:29:17 - INFO - Procesando trabajo 20/25 (ID: 4255575912).
+24-Jun-25 16:29:17 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255575912).
+24-Jun-25 16:29:25 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:29:30 - INFO - Trabajo extraído exitosamente: 'Data Analyst' en 'Javvy Coffee' (ID: 4255575912)
+24-Jun-25 16:29:32 - INFO - Procesando trabajo 21/25 (ID: 4255211719).
+24-Jun-25 16:29:32 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255211719).
+24-Jun-25 16:29:41 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:29:45 - INFO - Trabajo extraído exitosamente: 'PowerBI Developer' en 'Allied Consultants, Inc.' (ID: 4255211719)
+24-Jun-25 16:29:48 - INFO - Procesando trabajo 22/25 (ID: 4239982828).
+24-Jun-25 16:29:48 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4239982828).
+24-Jun-25 16:29:56 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:30:03 - INFO - Trabajo extraído exitosamente: 'Senior Data Analyst' en 'Arrows' (ID: 4239982828)
+24-Jun-25 16:30:06 - INFO - Procesando trabajo 23/25 (ID: 4254146410).
+24-Jun-25 16:30:06 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4254146410).
+24-Jun-25 16:30:16 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:30:22 - INFO - Trabajo extraído exitosamente: 'Data Analyst' en 'Bloom Growth™' (ID: 4254146410)
+24-Jun-25 16:30:25 - INFO - Procesando trabajo 24/25 (ID: 4255234594).
+24-Jun-25 16:30:25 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255234594).
+24-Jun-25 16:30:34 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:30:39 - INFO - Trabajo extraído exitosamente: 'Business Intelligence Consultant' en 'Millennium Software and Staffing' (ID: 4255234594)
+24-Jun-25 16:30:42 - INFO - Procesando trabajo 25/25 (ID: 4246002580).
+24-Jun-25 16:30:42 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4246002580).
+24-Jun-25 16:30:51 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:30:56 - INFO - Trabajo extraído exitosamente: 'Analista de Datos' en 'IG Networks' (ID: 4246002580)
+24-Jun-25 16:31:00 - INFO - Intentando pasar a la página 2 usando el botón 'Siguiente' para 'Analista de Datos'...
+24-Jun-25 16:31:25 - WARNING - Timeout: No se encontró el botón 'Siguiente' o la siguiente página no cargó para 'Analista de Datos'. Terminando la paginación.
+24-Jun-25 16:31:26 - INFO - Captura de pantalla guardada en debug_screenshot_next_page_timeout_Analista de Datos.png
+24-Jun-25 16:31:26 - INFO - Se rasparon 25 trabajos para 'Analista de Datos' en 'España'.
+24-Jun-25 16:31:32 - INFO - Iniciando scraping para palabra clave: 'Analista de Datos' en ubicación: 'Estados Unidos'
+24-Jun-25 16:31:32 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=2592000000&f_WRA=true&geoId=92000000&keywords=Analista de Datos&location=Estados Unidos&start=0
+24-Jun-25 16:31:50 - INFO - URL actual después de la navegación: https://www.linkedin.com/jobs/search/?currentJobId=4255315046&f_TPR=2592000000&f_WT=2&geoId=92000000&keywords=Analista%20de%20Datos&location=Estados%20Unidos
+24-Jun-25 16:31:50 - INFO - Lista de resultados de búsqueda inicial encontrada y visible.
+24-Jun-25 16:31:54 - WARNING - No se pudo obtener el conteo de resultados inicial. Intentando selectores alternativos o asumiendo un conteo bajo.
+24-Jun-25 16:31:54 - WARNING - No se pudo obtener el conteo de resultados con selectores alternativos. Asumiendo 0 para continuar.
+24-Jun-25 16:31:54 - INFO - Iniciando scraping para 'Analista de Datos' en 'Estados Unidos' (0 resultados totales esperados)...
+24-Jun-25 16:31:54 - INFO - --- Procesando Página 1 de un máximo de 3 ---
+24-Jun-25 16:32:05 - INFO - Encontradas 25 tarjetas de trabajos válidas y visibles en la página.
+24-Jun-25 16:32:05 - INFO - Total de tarjetas de trabajo válidas visibles en la página 1: 25
+24-Jun-25 16:32:05 - INFO - Procesando trabajo 1/25 (ID: 4255315046).
+24-Jun-25 16:32:05 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255315046).
+24-Jun-25 16:32:14 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:32:20 - INFO - Trabajo extraído exitosamente: 'Sr. Data Analyst' en 'Gravity IT Resources' (ID: 4255315046)
+24-Jun-25 16:32:23 - INFO - Procesando trabajo 2/25 (ID: 4255246733).
+24-Jun-25 16:32:23 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255246733).
+24-Jun-25 16:32:32 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:32:39 - INFO - Trabajo extraído exitosamente: 'Junior Data Analyst' en 'Insight Global' (ID: 4255246733)
+24-Jun-25 16:32:41 - INFO - Procesando trabajo 3/25 (ID: 4237489490).
+24-Jun-25 16:32:41 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4237489490).
+24-Jun-25 16:32:51 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:32:56 - INFO - Trabajo extraído exitosamente: 'Data Analyst' en 'Good Giant' (ID: 4237489490)
+24-Jun-25 16:32:59 - INFO - Procesando trabajo 4/25 (ID: 4251542008).
+24-Jun-25 16:32:59 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4251542008).
+24-Jun-25 16:33:09 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:33:13 - INFO - Trabajo extraído exitosamente: 'Data Analyst (Contract | Full Time)' en 'BiggerPockets' (ID: 4251542008)
+24-Jun-25 16:33:17 - INFO - Procesando trabajo 5/25 (ID: 4245584842).
+24-Jun-25 16:33:17 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4245584842).
+24-Jun-25 16:33:26 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+24-Jun-25 16:33:32 - INFO - Trabajo extraído exitosamente: 'Senior Data Analyst' en 'INSPYR Solutions' (ID: 4245584842)
+24-Jun-25 16:33:35 - INFO - Procesando trabajo 6/25 (ID: 4256052384).
+24-Jun-25 16:33:35 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4256052384).
+24-Jun-25 16:33:45 - ERROR - WebDriverException durante scrape_job_details para ID 4256052384: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69003fea5+79173]
+	GetHandleVerifier [0x0x7ff69003ff00+79264]
+	(No symbol) [0x0x7ff68fdf9e5a]
+	(No symbol) [0x0x7ff68fde72dc]
+	(No symbol) [0x0x7ff68fde6fca]
+	(No symbol) [0x0x7ff68fde5e2e]
+	(No symbol) [0x0x7ff68fe0ac44]
+	(No symbol) [0x0x7ff68fe803c5]
+	(No symbol) [0x0x7ff68fea0922]
+	(No symbol) [0x0x7ff68fe78743]
+	(No symbol) [0x0x7ff68fe414c1]
+	(No symbol) [0x0x7ff68fe42253]
+	GetHandleVerifier [0x0x7ff69030a2dd+3004797]
+	GetHandleVerifier [0x0x7ff69030472d+2981325]
+	GetHandleVerifier [0x0x7ff690323380+3107360]
+	GetHandleVerifier [0x0x7ff69005aa2e+188622]
+	GetHandleVerifier [0x0x7ff6900622bf+219487]
+	GetHandleVerifier [0x0x7ff690048df4+115860]
+	GetHandleVerifier [0x0x7ff690048fa9+116297]
+	GetHandleVerifier [0x0x7ff69002f558+11256]
+	BaseThreadInitThunk [0x0x7ff82c56257d+29]
+	RtlUserThreadStart [0x0x7ff82e14af08+40]
+. La sesión del navegador puede haberse perdido.
+24-Jun-25 16:33:45 - CRITICAL - WebDriverException inesperada durante el scraping para ID 4256052384: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69003fea5+79173]
+	GetHandleVerifier [0x0x7ff69003ff00+79264]
+	(No symbol) [0x0x7ff68fdf9c8c]
+	(No symbol) [0x0x7ff68fe405ef]
+	(No symbol) [0x0x7ff68fe78832]
+	(No symbol) [0x0x7ff68fe73233]
+	(No symbol) [0x0x7ff68fe722f9]
+	(No symbol) [0x0x7ff68fdc5fc5]
+	GetHandleVerifier [0x0x7ff69030a2dd+3004797]
+	GetHandleVerifier [0x0x7ff69030472d+2981325]
+	GetHandleVerifier [0x0x7ff690323380+3107360]
+	GetHandleVerifier [0x0x7ff69005aa2e+188622]
+	GetHandleVerifier [0x0x7ff6900622bf+219487]
+	(No symbol) [0x0x7ff68fdc5036]
+	GetHandleVerifier [0x0x7ff690423c78+4158232]
+	BaseThreadInitThunk [0x0x7ff82c56257d+29]
+	RtlUserThreadStart [0x0x7ff82e14af08+40]
+. Finalizando el scraping para esta palabra clave para reintentar la conexión.
+24-Jun-25 16:33:45 - CRITICAL - WebDriver ha fallado para 'Analista de Datos' en 'Estados Unidos': Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69003fea5+79173]
+	GetHandleVerifier [0x0x7ff69003ff00+79264]
+	(No symbol) [0x0x7ff68fdf9c8c]
+	(No symbol) [0x0x7ff68fe405ef]
+	(No symbol) [0x0x7ff68fe78832]
+	(No symbol) [0x0x7ff68fe73233]
+	(No symbol) [0x0x7ff68fe722f9]
+	(No symbol) [0x0x7ff68fdc5fc5]
+	GetHandleVerifier [0x0x7ff69030a2dd+3004797]
+	GetHandleVerifier [0x0x7ff69030472d+2981325]
+	GetHandleVerifier [0x0x7ff690323380+3107360]
+	GetHandleVerifier [0x0x7ff69005aa2e+188622]
+	GetHandleVerifier [0x0x7ff6900622bf+219487]
+	(No symbol) [0x0x7ff68fdc5036]
+	GetHandleVerifier [0x0x7ff690423c78+4158232]
+	BaseThreadInitThunk [0x0x7ff82c56257d+29]
+	RtlUserThreadStart [0x0x7ff82e14af08+40]
+. Reintentando la conexión del driver.

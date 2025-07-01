@@ -1,0 +1,85 @@
+23-Jun-25 16:56:13 - INFO - Log file log\23-Jun-25_16-56-13.log created
+23-Jun-25 16:56:13 - INFO - output/23-Jun-25_linkedin_jobs.csv no existe
+23-Jun-25 16:56:13 - INFO - output/23-Jun-25_linkedin_jobs.csv Creado
+23-Jun-25 16:56:16 - INFO - LOGUEANDOME A LINKEDIN COMO mirek21473@kimdyn.com...
+23-Jun-25 16:56:27 - INFO - Login completado.
+23-Jun-25 16:56:36 - INFO - Navegación exitosa a la página principal después del login.
+23-Jun-25 16:56:54 - INFO - 
+--- Iniciando búsqueda para: Keyword='Data%20Scientist', Ubicación='Spain', Remoto='true', Publicado='r86400' ---
+
+23-Jun-25 16:56:54 - INFO - Navegando a la URL de búsqueda inicial: https://www.linkedin.com/jobs/search/?f_TPR=r86400&f_WRA=true&geoId=92000000&keywords=Data%20Scientist&location=Spain&start=0
+23-Jun-25 16:57:12 - INFO - URL actual después de la navegación: https://www.linkedin.com/jobs/search/?currentJobId=4253310620&f_TPR=r86400&f_WT=2&geoId=92000000&keywords=Data%20Scientist&location=Spain
+23-Jun-25 16:57:12 - INFO - Lista de resultados de búsqueda inicial encontrada y visible.
+23-Jun-25 16:57:15 - WARNING - No se pudo obtener el conteo de resultados inicial. Intentando selectores alternativos o asumiendo un conteo bajo.
+23-Jun-25 16:57:15 - WARNING - No se pudo obtener el conteo de resultados con selectores alternativos. Asumiendo 0 para continuar.
+23-Jun-25 16:57:15 - INFO - Iniciando scraping para 'Data%20Scientist' en 'Spain' (0 resultados totales esperados)...
+23-Jun-25 16:57:15 - INFO - --- Procesando Página 1 de un máximo de 3 ---
+23-Jun-25 16:57:22 - INFO - Encontradas 25 tarjetas de trabajos actualmente visibles y válidas en la página.
+23-Jun-25 16:57:22 - INFO - Total de tarjetas de trabajo válidas visibles en la página 1: 25
+23-Jun-25 16:57:22 - INFO - Procesando trabajo 1/25 (ID: 4253310620).
+23-Jun-25 16:57:23 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4253310620).
+23-Jun-25 16:57:31 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 16:57:37 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en SoTalent (ID: 4253310620)
+23-Jun-25 16:57:40 - INFO - Procesando trabajo 2/25 (ID: 4255315046).
+23-Jun-25 16:57:40 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255315046).
+23-Jun-25 16:57:49 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 16:57:55 - INFO - Trabajo extraído exitosamente: Sr. Data Analyst en Gravity IT Resources (ID: 4255315046)
+23-Jun-25 16:57:57 - INFO - Procesando trabajo 3/25 (ID: 4255195040).
+23-Jun-25 16:57:57 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255195040).
+23-Jun-25 16:58:04 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 16:58:09 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en Empiric (ID: 4255195040)
+23-Jun-25 16:58:12 - INFO - Procesando trabajo 4/25 (ID: 4255302863).
+23-Jun-25 16:58:12 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255302863).
+23-Jun-25 16:58:20 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 16:58:24 - INFO - Trabajo extraído exitosamente: Senior Data Scientist en Acumatica (ID: 4255302863)
+23-Jun-25 16:58:27 - INFO - Procesando trabajo 5/25 (ID: 4255131804).
+23-Jun-25 16:58:27 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255131804).
+23-Jun-25 16:58:36 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 16:58:41 - INFO - Trabajo extraído exitosamente: Data Science & ML Engineer en TrueNorth® (ID: 4255131804)
+23-Jun-25 16:58:44 - INFO - Procesando trabajo 6/25 (ID: 4252676518).
+23-Jun-25 16:58:44 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4252676518).
+23-Jun-25 16:58:53 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 16:58:59 - WARNING - No se encontró el nombre de la empresa para ID 4252676518.
+23-Jun-25 16:58:59 - INFO - Trabajo extraído exitosamente: Senior Data Analyst: 100% remote [32334] en  (ID: 4252676518)
+23-Jun-25 16:59:01 - INFO - Procesando trabajo 7/25 (ID: 4255195169).
+23-Jun-25 16:59:01 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255195169).
+23-Jun-25 16:59:11 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 16:59:17 - INFO - Trabajo extraído exitosamente: AI/ ML Engineer en Acetech Group Corporation (ID: 4255195169)
+23-Jun-25 16:59:19 - INFO - Procesando trabajo 8/25 (ID: 4255203695).
+23-Jun-25 16:59:19 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255203695).
+23-Jun-25 16:59:27 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 16:59:31 - INFO - Trabajo extraído exitosamente: Data Scientist, Entry Level en Jobright.ai (ID: 4255203695)
+23-Jun-25 16:59:33 - INFO - Procesando trabajo 9/25 (ID: 4255098146).
+23-Jun-25 16:59:33 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255098146).
+23-Jun-25 16:59:41 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 16:59:46 - INFO - Trabajo extraído exitosamente: Data Scientist en People Prime Worldwide (ID: 4255098146)
+23-Jun-25 16:59:49 - INFO - Procesando trabajo 10/25 (ID: 4255251146).
+23-Jun-25 16:59:49 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255251146).
+23-Jun-25 16:59:59 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 17:00:04 - INFO - Trabajo extraído exitosamente: Machine Learning Engineer en Creospan Inc. (ID: 4255251146)
+23-Jun-25 17:00:08 - INFO - Procesando trabajo 11/25 (ID: 4255319081).
+23-Jun-25 17:00:08 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255319081).
+23-Jun-25 17:00:15 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 17:00:19 - INFO - Trabajo extraído exitosamente: Data Scientist en Wiraa (ID: 4255319081)
+23-Jun-25 17:00:21 - INFO - Procesando trabajo 12/25 (ID: 4252387832).
+23-Jun-25 17:00:21 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4252387832).
+23-Jun-25 17:00:30 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 17:00:35 - INFO - Trabajo extraído exitosamente: Data Scientist / AI / Gen AI / Software Engineer / LLM / ML / Machine Learning / Solutions Architect en BSL Consulting (ID: 4252387832)
+23-Jun-25 17:00:39 - INFO - Procesando trabajo 13/25 (ID: 4255211072).
+23-Jun-25 17:00:39 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255211072).
+23-Jun-25 17:00:48 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 17:00:53 - INFO - Trabajo extraído exitosamente: Analytics Manager en Sibitalent Corp (ID: 4255211072)
+23-Jun-25 17:00:56 - INFO - Procesando trabajo 14/25 (ID: 4255361312).
+23-Jun-25 17:00:56 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255361312).
+23-Jun-25 17:01:03 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 17:01:08 - INFO - Trabajo extraído exitosamente: Machine Learning Engineer en Tailored Management (ID: 4255361312)
+23-Jun-25 17:01:11 - INFO - Procesando trabajo 15/25 (ID: 4255214202).
+23-Jun-25 17:01:11 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255214202).
+23-Jun-25 17:01:20 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 17:01:25 - INFO - Trabajo extraído exitosamente: Senior Data Engineer en Harnham (ID: 4255214202)
+23-Jun-25 17:01:27 - INFO - Procesando trabajo 16/25 (ID: 4255359256).
+23-Jun-25 17:01:27 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4255359256).
+23-Jun-25 17:01:35 - INFO - Detalles del trabajo en el panel lateral cargados exitosamente.
+23-Jun-25 17:01:40 - INFO - Trabajo extraído exitosamente: Data Scientist en Hirenza (ID: 4255359256)
+23-Jun-25 17:01:42 - INFO - Procesando trabajo 17/25 (ID: 4251730580).
+23-Jun-25 17:01:43 - INFO - Preparando para scrapear tarjeta de trabajo (ID: 4251730580).

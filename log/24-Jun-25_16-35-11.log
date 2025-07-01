@@ -1,0 +1,32 @@
+24-Jun-25 16:35:11 - INFO - Archivo de log log\24-Jun-25_16-35-11.log creado y configurado.
+24-Jun-25 16:35:11 - INFO - output\linkedin_jobs.csv borrado para una nueva ejecución.
+24-Jun-25 16:35:11 - INFO - Archivo CSV 'output\linkedin_jobs.csv' creado con éxito.
+24-Jun-25 16:35:14 - INFO - Iniciando sesión en LinkedIn como mirek21473@kimdyn.com...
+24-Jun-25 16:35:26 - INFO - Login: Credenciales enviadas.
+24-Jun-25 16:36:02 - ERROR - Login: Timeout al esperar la barra de búsqueda global después del login. Posiblemente el login falló, hay un CAPTCHA, o la página está muy lenta.
+24-Jun-25 16:36:02 - INFO - Login: Captura de pantalla de timeout post-login guardada en debug_screenshot_post_login_timeout.png
+24-Jun-25 16:36:02 - CRITICAL - ¡Error fatal en la ejecución principal!: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69003fea5+79173]
+	GetHandleVerifier [0x0x7ff69003ff00+79264]
+	(No symbol) [0x0x7ff68fdf9e5a]
+	(No symbol) [0x0x7ff68fe50586]
+	(No symbol) [0x0x7ff68fe5083c]
+	(No symbol) [0x0x7ff68fea4247]
+	(No symbol) [0x0x7ff68fe789af]
+	(No symbol) [0x0x7ff68fea100d]
+	(No symbol) [0x0x7ff68fe78743]
+	(No symbol) [0x0x7ff68fe414c1]
+	(No symbol) [0x0x7ff68fe42253]
+	GetHandleVerifier [0x0x7ff69030a2dd+3004797]
+	GetHandleVerifier [0x0x7ff69030472d+2981325]
+	GetHandleVerifier [0x0x7ff690323380+3107360]
+	GetHandleVerifier [0x0x7ff69005aa2e+188622]
+	GetHandleVerifier [0x0x7ff6900622bf+219487]
+	GetHandleVerifier [0x0x7ff690048df4+115860]
+	GetHandleVerifier [0x0x7ff690048fa9+116297]
+	GetHandleVerifier [0x0x7ff69002f558+11256]
+	BaseThreadInitThunk [0x0x7ff82c56257d+29]
+	RtlUserThreadStart [0x0x7ff82e14af08+40]
+
+24-Jun-25 16:36:02 - CRITICAL - El script se detendrá.

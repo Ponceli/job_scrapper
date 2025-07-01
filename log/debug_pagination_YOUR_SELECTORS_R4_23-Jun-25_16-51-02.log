@@ -1,0 +1,30 @@
+23-Jun-25 16:51:02 - INFO - Log file log\debug_pagination_YOUR_SELECTORS_R4_23-Jun-25_16-51-02.log created for pagination debugging (Using your selectors R4).
+23-Jun-25 16:51:05 - INFO - LOGUEANDOME A LINKEDIN COMO mirek21473@kimdyn.com...
+23-Jun-25 16:51:28 - INFO - Login completado.
+23-Jun-25 16:51:28 - INFO - Navegación exitosa a la página principal después del login.
+23-Jun-25 16:51:41 - INFO - Navegando a la URL de búsqueda inicial para depuración: https://www.linkedin.com/jobs/search/?keywords=Python%20Developer&location=Spain&start=0
+23-Jun-25 16:51:59 - INFO - URL actual después de la navegación: https://www.linkedin.com/jobs/search/?currentJobId=4252652812&keywords=Python%20Developer&location=Spain
+23-Jun-25 16:51:59 - INFO - Primeras tarjetas de resultados de búsqueda encontradas y visibles. ¡Página de resultados lista!
+23-Jun-25 16:52:02 - INFO - --- Intentando pasar a la página 2 ---
+23-Jun-25 16:52:03 - INFO - Botón de la página 2 encontrado usando tu XPath.
+23-Jun-25 16:52:06 - INFO - Clic en el botón de la página 2 exitoso.
+23-Jun-25 16:52:06 - INFO - VERIFICACIÓN: La página 2 se cargó o se activó correctamente.
+23-Jun-25 16:52:13 - INFO - VERIFICACIÓN: Se detectaron elementos de trabajos en la página 2. Paginación visualmente exitosa.
+23-Jun-25 16:52:13 - INFO - --- Intentando pasar a la página 3 ---
+23-Jun-25 16:52:13 - INFO - Botón de la página 3 encontrado usando tu XPath.
+23-Jun-25 16:52:15 - INFO - Clic en el botón de la página 3 exitoso.
+23-Jun-25 16:52:15 - INFO - VERIFICACIÓN: La página 3 se cargó o se activó correctamente.
+23-Jun-25 16:52:23 - INFO - VERIFICACIÓN: Se detectaron elementos de trabajos en la página 3. Paginación visualmente exitosa.
+23-Jun-25 16:52:23 - INFO - --- Intentando pasar a la página 4 ---
+23-Jun-25 16:52:23 - INFO - Botón de la página 4 encontrado usando tu XPath.
+23-Jun-25 16:52:26 - INFO - Clic en el botón de la página 4 exitoso.
+23-Jun-25 16:52:26 - INFO - VERIFICACIÓN: La página 4 se cargó o se activó correctamente.
+23-Jun-25 16:52:32 - INFO - VERIFICACIÓN: Se detectaron elementos de trabajos en la página 4. Paginación visualmente exitosa.
+23-Jun-25 16:52:32 - INFO - --- Intentando pasar a la página 5 ---
+23-Jun-25 16:52:33 - INFO - Botón de la página 5 encontrado usando tu XPath.
+23-Jun-25 16:52:34 - INFO - Clic en el botón de la página 5 exitoso.
+23-Jun-25 16:52:35 - INFO - VERIFICACIÓN: La página 5 se cargó o se activó correctamente.
+23-Jun-25 16:52:42 - INFO - VERIFICACIÓN: Se detectaron elementos de trabajos en la página 5. Paginación visualmente exitosa.
+23-Jun-25 16:52:42 - INFO - Depuración de paginación completada. Última página intentada con éxito: 5.
+23-Jun-25 16:52:42 - INFO - Cerrando el navegador después de la depuración de paginación.
+23-Jun-25 16:52:45 - INFO - Proceso de depuración de paginación completado.
